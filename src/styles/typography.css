@@ -1,0 +1,336 @@
+/* Portuguese Coastal Typography System */
+
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+
+/* Typography Variables */
+:root {
+  /* Font Families */
+  --font-primary: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+
+  /* Font Weights */
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+  --font-black: 900;
+
+  /* Font Sizes - Mobile First */
+  --text-xs: 0.75rem; /* 12px */
+  --text-sm: 0.875rem; /* 14px */
+  --text-base: 1rem; /* 16px */
+  --text-lg: 1.125rem; /* 18px */
+  --text-xl: 1.25rem; /* 20px */
+  --text-2xl: 1.5rem; /* 24px */
+  --text-3xl: 1.875rem; /* 30px */
+  --text-4xl: 2.25rem; /* 36px */
+  --text-5xl: 3rem; /* 48px */
+  --text-6xl: 3.75rem; /* 60px */
+  --text-7xl: 4.5rem; /* 72px */
+
+  /* Line Heights */
+  --leading-none: 1;
+  --leading-tight: 1.25;
+  --leading-snug: 1.375;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+  --leading-loose: 2;
+
+  /* Letter Spacing */
+  --tracking-tighter: -0.05em;
+  --tracking-tight: -0.025em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.025em;
+  --tracking-wider: 0.05em;
+  --tracking-widest: 0.1em;
+}
+
+/* Base Typography Styles */
+body {
+  font-family: var(--font-primary);
+  font-weight: var(--font-regular);
+  line-height: var(--leading-normal);
+  color: #1f2937;
+}
+
+/* Heading Styles */
+.heading-display {
+  font-family: var(--font-display);
+  font-weight: var(--font-bold);
+  font-size: var(--text-4xl);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tight);
+  color: #111827;
+}
+
+@media (min-width: 768px) {
+  .heading-display {
+    font-size: var(--text-5xl);
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading-display {
+    font-size: var(--text-6xl);
+  }
+}
+
+@media (min-width: 1280px) {
+  .heading-display {
+    font-size: var(--text-7xl);
+  }
+}
+
+.heading-1 {
+  font-family: var(--font-display);
+  font-weight: var(--font-bold);
+  font-size: var(--text-3xl);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tight);
+  color: #111827;
+}
+
+@media (min-width: 768px) {
+  .heading-1 {
+    font-size: var(--text-4xl);
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading-1 {
+    font-size: var(--text-5xl);
+  }
+}
+
+.heading-2 {
+  font-family: var(--font-display);
+  font-weight: var(--font-semibold);
+  font-size: var(--text-2xl);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tight);
+  color: #111827;
+}
+
+@media (min-width: 768px) {
+  .heading-2 {
+    font-size: var(--text-3xl);
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading-2 {
+    font-size: var(--text-4xl);
+  }
+}
+
+.heading-3 {
+  font-family: var(--font-primary);
+  font-weight: var(--font-semibold);
+  font-size: var(--text-lg);
+  line-height: var(--leading-snug);
+  color: #111827;
+}
+
+@media (min-width: 768px) {
+  .heading-3 {
+    font-size: var(--text-xl);
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading-3 {
+    font-size: var(--text-2xl);
+  }
+}
+
+.heading-4 {
+  font-family: var(--font-primary);
+  font-weight: var(--font-semibold);
+  font-size: var(--text-base);
+  line-height: var(--leading-snug);
+  color: #111827;
+}
+
+@media (min-width: 768px) {
+  .heading-4 {
+    font-size: var(--text-lg);
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading-4 {
+    font-size: var(--text-xl);
+  }
+}
+
+/* Body Text Styles */
+.text-lead {
+  font-size: var(--text-lg);
+  line-height: var(--leading-relaxed);
+  color: #374151;
+  font-weight: var(--font-regular);
+}
+
+@media (min-width: 768px) {
+  .text-lead {
+    font-size: var(--text-xl);
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-lead {
+    font-size: var(--text-2xl);
+  }
+}
+
+.text-body {
+  font-size: var(--text-base);
+  line-height: var(--leading-relaxed);
+  color: #4b5563;
+}
+
+.text-body-sm {
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+  color: #6b7280;
+}
+
+.text-caption {
+  font-size: var(--text-xs);
+  line-height: var(--leading-normal);
+  color: #9ca3af;
+  font-weight: var(--font-medium);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+}
+
+/* Utility Classes */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+/* Portuguese Coastal Specific Styles */
+.coastal-hero-title {
+  font-family: var(--font-display);
+  font-weight: var(--font-bold);
+  font-size: 2.5rem;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-tight);
+  background: linear-gradient(135deg, #ffffff 0%, #e0f2fe 50%, #bae6fd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 768px) {
+  .coastal-hero-title {
+    font-size: 3.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .coastal-hero-title {
+    font-size: 4.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .coastal-hero-title {
+    font-size: 5.5rem;
+  }
+}
+
+.coastal-section-title {
+  font-family: var(--font-display);
+  font-weight: var(--font-bold);
+  font-size: var(--text-3xl);
+  line-height: var(--leading-tight);
+  background: linear-gradient(135deg, #0c4a6e 0%, #0369a1 50%, #0ea5e9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media (min-width: 768px) {
+  .coastal-section-title {
+    font-size: var(--text-4xl);
+  }
+}
+
+@media (min-width: 1024px) {
+  .coastal-section-title {
+    font-size: var(--text-5xl);
+  }
+}
+
+.coastal-subtitle {
+  font-size: var(--text-lg);
+  line-height: var(--leading-relaxed);
+  color: #475569;
+  font-weight: var(--font-regular);
+  max-width: 42rem;
+}
+
+@media (min-width: 768px) {
+  .coastal-subtitle {
+    font-size: var(--text-xl);
+  }
+}
+
+/* Special Effects */
+.text-shimmer {
+  background: linear-gradient(
+    90deg,
+    #0ea5e9 0%,
+    #38bdf8 25%,
+    #7dd3fc 50%,
+    #38bdf8 75%,
+    #0ea5e9 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.text-glow {
+  text-shadow: 0 0 20px rgba(14, 165, 233, 0.5),
+    0 0 40px rgba(14, 165, 233, 0.3), 0 0 60px rgba(14, 165, 233, 0.1);
+}
+
+/* Responsive Font Loading */
+@supports (font-display: swap) {
+  @font-face {
+    font-family: "Inter";
+    src: url("https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTcviYw.woff2")
+      format("woff2");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Playfair Display";
+    src: url("https://fonts.gstatic.com/s/playfairdisplay/v30/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYhA.woff2")
+      format("woff2");
+    font-display: swap;
+  }
+}
