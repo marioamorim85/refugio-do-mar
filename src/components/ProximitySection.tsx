@@ -186,15 +186,15 @@ export default function ProximitySection() {
               
               {/* Location highlights */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-                <div className="flex items-center gap-3 p-4 bg-white/50 rounded-xl border border-white/30">
+                <div className="flex items-center justify-start md:justify-end gap-3 p-4 bg-white/50 rounded-xl border border-white/30">
                   <div className="w-3 h-3 bg-blue-500 rounded-full animate-pulse" />
                   <span className="font-medium text-gray-800">{t('proximity.location_highlights.beach')}</span>
                 </div>
-                <div className="flex items-center gap-3 p-4 bg-white/50 rounded-xl border border-white/30">
+                <div className="flex items-center justify-center gap-3 p-4 bg-white/50 rounded-xl border border-white/30">
                   <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
                   <span className="font-medium text-gray-800">{t('proximity.location_highlights.center')}</span>
                 </div>
-                <div className="flex items-center gap-3 p-4 bg-white/50 rounded-xl border border-white/30">
+                <div className="flex items-center justify-end md:justify-start gap-3 p-4 bg-white/50 rounded-xl border border-white/30">
                   <div className="w-3 h-3 bg-coral-500 rounded-full animate-pulse" />
                   <span className="font-medium text-gray-800">{t('proximity.location_highlights.seaview')}</span>
                 </div>
