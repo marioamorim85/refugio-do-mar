@@ -110,7 +110,7 @@ export default function HeroSection() {
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
             >
-              <div className="text-2xl font-bold text-white mb-1">40m²</div>
+              <div className="text-2xl font-bold text-white mb-1">60m²</div>
               <div className="text-sm text-gray-200">{t('hero.features.area')}</div>
             </motion.div>
             <motion.div 

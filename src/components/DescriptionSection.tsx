@@ -95,7 +95,7 @@ export default function DescriptionSection() {
                   <div className="p-3 bg-gradient-to-r from-purple-500 to-indigo-500 rounded-xl shadow-md group-hover:shadow-purple-500/40 transition-all duration-300 mb-3 mx-auto w-fit">
                     <Maximize2 className="w-5 h-5" style={{color: 'white'}} />
                   </div>
-                  <div className="text-2xl font-bold text-purple-600 mb-1">40m²</div>
+                  <div className="text-2xl font-bold text-purple-600 mb-1">60m²</div>
                   <div className="text-sm text-gray-600 font-medium">{t('description.stats.area')} 🏠</div>
                 </motion.div>
               </div>
