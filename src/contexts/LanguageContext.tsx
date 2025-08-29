@@ -118,7 +118,7 @@ const translations = {
     'gallery.images.piscina3': 'Vista da piscina',
     'gallery.images.piscina4': 'Relaxamento na piscina',
     'gallery.images.piscina5': 'Ambiente da piscina',
-    'gallery.images.tasca26': 'Tasca 26 - Restaurante & Tapas Bar',
+    'gallery.images.tasca26': 'Tasca 26 - Restaurante & Tapas',
     'gallery.images.papa_companhia': 'Papa e Companhia',
     'gallery.images.sapori': 'Sapori da Giovanni',
     'gallery.images.praia_armacao': 'Praia de Armação de Pêra',
@@ -716,7 +716,7 @@ const translations = {
     'proximity.location_highlights.beach': '300m da praia',
     'proximity.location_highlights.center': 'Centro da vila',
     'proximity.location_highlights.seaview': 'Vista mar total',
-    'proximity.airports.portimao': 'Aeródromo Municipal de Portimão',
+    'proximity.airports.portimao': 'Aeródromo de Portimão',
     'proximity.airports.faro': 'Aeroporto Internacional de Faro',
     
     // Activities Section
@@ -1049,7 +1049,7 @@ const translations = {
     'gallery.images.piscina3': 'Pool view',
     'gallery.images.piscina4': 'Pool relaxation',
     'gallery.images.piscina5': 'Pool ambiance',
-    'gallery.images.tasca26': 'Tasca 26 - Restaurant & Tapas Bar',
+    'gallery.images.tasca26': 'Tasca 26 - Restaurante & Tapas',
     'gallery.images.papa_companhia': 'Papa e Companhia',
     'gallery.images.sapori': 'Sapori da Giovanni',
     'gallery.images.praia_armacao': 'Armação de Pêra Beach',
@@ -1638,7 +1638,7 @@ const translations = {
     'proximity.location_highlights.beach': '300m from beach',
     'proximity.location_highlights.center': 'Village center',
     'proximity.location_highlights.seaview': 'Total sea view',
-    'proximity.airports.portimao': 'Portimão Municipal Aerodrome',
+    'proximity.airports.portimao': 'Portimão Aerodrome',
     'proximity.airports.faro': 'Faro International Airport',
     
     // Activities Section
@@ -1971,7 +1971,7 @@ const translations = {
     'gallery.images.piscina3': 'Vista de la piscina',
     'gallery.images.piscina4': 'Relajación en la piscina',
     'gallery.images.piscina5': 'Ambiente de la piscina',
-    'gallery.images.tasca26': 'Tasca 26 - Restaurante & Tapas Bar',
+    'gallery.images.tasca26': 'Tasca 26 - Restaurante & Tapas',
     'gallery.images.papa_companhia': 'Papa e Companhia',
     'gallery.images.sapori': 'Sapori da Giovanni',
     'gallery.images.praia_armacao': 'Playa de Armação de Pêra',
@@ -2290,7 +2290,7 @@ const translations = {
     'proximity.location_highlights.beach': '300m de la playa',
     'proximity.location_highlights.center': 'Centro del pueblo',
     'proximity.location_highlights.seaview': 'Vista al mar total',
-    'proximity.airports.portimao': 'Aeródromo Municipal de Portimão',
+    'proximity.airports.portimao': 'Aeródromo de Portimão',
     'proximity.airports.faro': 'Aeroporto Internacional de Faro',
     
     // Activities Section
@@ -2836,7 +2836,7 @@ const translations = {
     'gallery.images.piscina3': 'Vue piscine',
     'gallery.images.piscina4': 'Détente à la piscine',
     'gallery.images.piscina5': 'Ambiance piscine',
-    'gallery.images.tasca26': 'Tasca 26 - Restaurant & Tapas Bar',
+    'gallery.images.tasca26': 'Tasca 26 - Restaurante & Tapas',
     'gallery.images.papa_companhia': 'Papa e Companhia',
     'gallery.images.sapori': 'Sapori da Giovanni',
     'gallery.images.praia_armacao': 'Plage d\'Armação de Pêra',
@@ -3155,7 +3155,7 @@ const translations = {
     'proximity.location_highlights.beach': '300m de la plage',
     'proximity.location_highlights.center': 'Centre du village',
     'proximity.location_highlights.seaview': 'Vue mer totale',
-    'proximity.airports.portimao': 'Aérodrome Municipal de Portimão',
+    'proximity.airports.portimao': 'Aérodrome de Portimão',
     'proximity.airports.faro': 'Aéroport International de Faro',
     
     // Activities Section
@@ -3702,7 +3702,7 @@ const translations = {
     'gallery.images.piscina3': 'Pool-Aussicht',
     'gallery.images.piscina4': 'Pool-Entspannung',
     'gallery.images.piscina5': 'Pool-Ambiente',
-    'gallery.images.tasca26': 'Tasca 26 - Restaurant & Tapas Bar',
+    'gallery.images.tasca26': 'Tasca 26 - Restaurante & Tapas',
     'gallery.images.papa_companhia': 'Papa e Companhia',
     'gallery.images.sapori': 'Sapori da Giovanni',
     'gallery.images.praia_armacao': 'Strand Armação de Pêra',
@@ -3940,7 +3940,7 @@ const translations = {
     'proximity.location_highlights.beach': '300m vom Strand',
     'proximity.location_highlights.center': 'Dorfzentrum',
     'proximity.location_highlights.seaview': 'Kompletter Meerblick',
-    'proximity.airports.portimao': 'Kommunaler Flugplatz Portimão',
+    'proximity.airports.portimao': 'Flugplatz Portimão',
     'proximity.airports.faro': 'Internationaler Flughafen Faro',
     
     // Activities Section

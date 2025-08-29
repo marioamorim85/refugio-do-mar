@@ -27,7 +27,7 @@ export default function ProximitySection() {
       items: [
         { name: "Papa e Companhia", distance: "150 m" },
         { name: "Sapori da Giovanni", distance: "150 m" },
-        { name: "Tasca 26 - Restaurante & Tapas Bar", distance: "1,6 km" }
+        { name: "Tasca 26 - Restaurante & Tapas", distance: "1,6 km" }
       ]
     },
     {
