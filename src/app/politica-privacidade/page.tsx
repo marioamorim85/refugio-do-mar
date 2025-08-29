@@ -239,7 +239,7 @@ export default function PoliticaPrivacidade() {
               </motion.div>
             </div>
 
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gradient-fix">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gradient-fix pb-2">
               {t('privacy.title')}
             </h1>
             
