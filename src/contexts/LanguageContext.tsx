@@ -192,7 +192,7 @@ const translations = {
     'magic.secret.instructions': '(Use no WhatsApp para ativar)',
     
     // Portuguese Welcome
-    'welcome.title': 'Bem-vindos ao Refúgio do Mar!',
+    'welcome.title': 'Bem-vindos ao Refúgio no Mar!',
     'welcome.description': 'Descobriste o melhor apartamento com vista mar do Algarve! 🌊',
     'welcome.direct_booking': 'Reserva direta = Melhor preço garantido',
     'welcome.offer.title': '🎁 Oferta de Boas-Vindas',
@@ -896,7 +896,7 @@ const translations = {
     'booking.form.message.thanks': 'Obrigado pelos detalhes!',
     'booking.form.submit': 'Enviar Pedido de Reserva',
     'booking.form.submitting': 'A Enviar Pedido...',
-    'booking.form.success': '🎉 Que maravilha! As suas férias de sonho no Refúgio do Mar estão quase reservadas!',
+    'booking.form.success': '🎉 Que maravilha! As suas férias de sonho no Refúgio no Mar estão quase reservadas!',
     'booking.form.success.note': '⚡ Resposta garantida em menos de 2 horas • 📱 Verifique também o WhatsApp',
     'booking.form.error': '❌ Erro ao enviar reserva. Verifique a sua ligação e tente novamente ou contacte-nos diretamente.',
     'booking.validation.name': 'Nome válido',
@@ -1120,7 +1120,7 @@ const translations = {
     'magic.secret.instructions': '(Use on WhatsApp to activate)',
     
     // Portuguese Welcome
-    'welcome.title': 'Welcome to Refúgio do Mar!',
+    'welcome.title': 'Welcome to Refúgio no Mar!',
     'welcome.description': 'You discovered the best sea view apartment in the Algarve! 🌊',
     'welcome.direct_booking': 'Direct booking = Best price guaranteed',
     'welcome.offer.title': '🎁 Welcome Offer',
@@ -2039,7 +2039,7 @@ const translations = {
     'magic.secret.instructions': '(Úsalo en WhatsApp para activar)',
     
     // Portuguese Welcome
-    'welcome.title': '¡Bienvenidos a Refúgio do Mar!',
+    'welcome.title': '¡Bienvenidos a Refúgio no Mar!',
     'welcome.description': '¡Descubriste el mejor apartamento con vista al mar del Algarve! 🌊',
     'welcome.direct_booking': 'Reserva directa = Mejor precio garantizado',
     'welcome.offer.title': '🎁 Oferta de Bienvenida',
@@ -2901,7 +2901,7 @@ const translations = {
     'magic.secret.instructions': '(À utiliser sur WhatsApp pour activer)',
     
     // Portuguese Welcome
-    'welcome.title': 'Bienvenue à Refúgio do Mar !',
+    'welcome.title': 'Bienvenue à Refúgio no Mar !',
     'welcome.description': 'Vous avez découvert le meilleur appartement avec vue sur mer de l\'Algarve ! 🌊',
     'welcome.direct_booking': 'Réservation directe = Meilleur prix garanti',
     'welcome.offer.title': '🎁 Offre de Bienvenue',
@@ -3764,7 +3764,7 @@ const translations = {
     'magic.secret.instructions': '(Auf WhatsApp verwenden um zu aktivieren)',
     
     // Portuguese Welcome
-    'welcome.title': 'Willkommen im Refúgio do Mar!',
+    'welcome.title': 'Willkommen im Refúgio no Mar!',
     'welcome.description': 'Sie haben das beste Apartment mit Meerblick an der Algarve entdeckt! 🌊',
     'welcome.direct_booking': 'Direktbuchung = Bester Preis garantiert',
     'welcome.offer.title': '🎁 Willkommensangebot',
