@@ -140,7 +140,7 @@ export default function Navbar() {
                 ? 'text-blue-700 bg-blue-50/60 shadow-sm' 
                 : 'text-gray-700 hover:text-blue-700'
             }`}>
-              <span className="relative z-10">Descrição</span>
+              <span className="relative z-10">{t('nav.description')}</span>
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400/10 to-teal-400/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </button></li>
             <li><button onClick={() => scrollToSection('gallery')} className={`relative px-4 py-2 text-sm font-medium transition-all duration-300 rounded-full hover:bg-blue-50/80 group ${

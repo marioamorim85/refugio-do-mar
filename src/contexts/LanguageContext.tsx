@@ -17,6 +17,7 @@ const translations = {
   pt: {
     'nav.home': 'Início',
     'nav.amenities': 'Comodidades', 
+    'nav.description': 'Descrição',
     'nav.gallery': 'Galeria',
     'nav.location': 'Localização',
     'nav.activities': 'Atividades',
@@ -64,8 +65,12 @@ const translations = {
     'amenities.items.bathroom_desc': 'Casa de banho completa',
     'amenities.items.balcony': 'Varanda com vista espetacular',
     'amenities.items.balcony_desc': 'Vista mar panorâmica e da cidade',
+    'amenities.items.kitchen': 'Cozinha equipada',
+    'amenities.items.kitchen_desc': 'Cozinha totalmente equipada com eletrodomésticos e utensílios',
     'amenities.items.wifi': 'Wi-Fi gratuito',
     'amenities.items.wifi_desc': 'Internet de alta velocidade',
+    'amenities.items.ac': 'Ar condicionado',
+    'amenities.items.ac_desc': 'Ar condicionado disponível em todo o apartamento',
     
     // Gallery Section
     'gallery.badge': 'Fotos Profissionais em Ultra HD',
@@ -940,6 +945,7 @@ const translations = {
   en: {
     'nav.home': 'Home',
     'nav.amenities': 'Amenities', 
+    'nav.description': 'Description',
     'nav.gallery': 'Gallery',
     'nav.location': 'Location',
     'nav.activities': 'Activities',
@@ -987,8 +993,12 @@ const translations = {
     'amenities.items.bathroom_desc': 'Complete bathroom',
     'amenities.items.balcony': 'Balcony with spectacular view',
     'amenities.items.balcony_desc': 'Panoramic sea and city view',
+    'amenities.items.kitchen': 'Equipped kitchen',
+    'amenities.items.kitchen_desc': 'Fully equipped kitchen with appliances and utensils',
     'amenities.items.wifi': 'Free Wi-Fi',
     'amenities.items.wifi_desc': 'High-speed internet',
+    'amenities.items.ac': 'Air conditioning',
+    'amenities.items.ac_desc': 'Air conditioning available throughout the apartment',
     
     // Gallery Section
     'gallery.badge': 'Professional Photos in Ultra HD',
@@ -1854,6 +1864,7 @@ const translations = {
   es: {
     'nav.home': 'Inicio',
     'nav.amenities': 'Comodidades', 
+    'nav.description': 'Descripción',
     'nav.gallery': 'Galería',
     'nav.location': 'Ubicación',
     'nav.activities': 'Actividades',
@@ -1901,6 +1912,10 @@ const translations = {
     'amenities.items.bathroom_desc': 'Baño completo',
     'amenities.items.balcony': 'Balcón con vista espectacular',
     'amenities.items.balcony_desc': 'Vista panorámica al mar y la ciudad',
+    'amenities.items.kitchen': 'Cocina equipada',
+    'amenities.items.kitchen_desc': 'Cocina totalmente equipada con electrodomésticos y utensilios',
+    'amenities.items.ac': 'Aire acondicionado',
+    'amenities.items.ac_desc': 'Aire acondicionado disponible en todo el apartamento',
     'amenities.items.wifi': 'Wi-Fi gratuito',
     'amenities.items.wifi_desc': 'Internet de alta velocidad',
     
@@ -2711,6 +2726,7 @@ const translations = {
   fr: {
     'nav.home': 'Accueil',
     'nav.amenities': 'Commodités', 
+    'nav.description': 'Description',
     'nav.gallery': 'Galerie',
     'nav.location': 'Emplacement',
     'nav.activities': 'Activités',
@@ -2760,6 +2776,10 @@ const translations = {
     'amenities.items.balcony_desc': 'Vue panoramique sur mer et ville',
     'amenities.items.wifi': 'Wi-Fi gratuit',
     'amenities.items.wifi_desc': 'Internet haut débit',
+    'amenities.items.kitchen': 'Cuisine équipée',
+    'amenities.items.kitchen_desc': 'Cuisine entièrement équipée avec électroménagers et ustensiles',
+    'amenities.items.ac': 'Climatisation',
+    'amenities.items.ac_desc': 'Climatisation disponible dans tout l\'appartement',
     
     // Gallery Section
     'gallery.badge': 'Photos Professionnelles en Ultra HD',
@@ -3569,6 +3589,7 @@ const translations = {
   de: {
     'nav.home': 'Startseite',
     'nav.amenities': 'Ausstattung', 
+    'nav.description': 'Beschreibung',
     'nav.gallery': 'Galerie',
     'nav.location': 'Standort',
     'nav.activities': 'Aktivitäten',
@@ -3618,6 +3639,10 @@ const translations = {
     'amenities.items.balcony_desc': 'Panorama-Meer- und Stadtblick',
     'amenities.items.wifi': 'Kostenloses WLAN',
     'amenities.items.wifi_desc': 'Hochgeschwindigkeits-Internet',
+    'amenities.items.kitchen': 'Ausgestattete Küche',
+    'amenities.items.kitchen_desc': 'Voll ausgestattete Küche mit Geräten und Utensilien',
+    'amenities.items.ac': 'Klimaanlage',
+    'amenities.items.ac_desc': 'Klimaanlage in der gesamten Wohnung verfügbar',
     
     // Gallery Section
     'gallery.badge': 'Professionelle Fotos in Ultra HD',
