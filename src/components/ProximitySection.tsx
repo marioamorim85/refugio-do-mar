@@ -51,8 +51,8 @@ export default function ProximitySection() {
       icon: Plane,
       title: t('proximity.airports'),
       items: [
-        { name: "Portimão", distance: "23 km" },
-        { name: "Faro", distance: "53 km" }
+        { name: t('proximity.airports.portimao'), distance: "23 km" },
+        { name: t('proximity.airports.faro'), distance: "53 km" }
       ]
     }
   ]

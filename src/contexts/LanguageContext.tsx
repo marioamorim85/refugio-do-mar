@@ -716,6 +716,8 @@ const translations = {
     'proximity.location_highlights.beach': '300m da praia',
     'proximity.location_highlights.center': 'Centro da vila',
     'proximity.location_highlights.seaview': 'Vista mar total',
+    'proximity.airports.portimao': 'Aeródromo Municipal de Portimão',
+    'proximity.airports.faro': 'Aeroporto Internacional de Faro',
     
     // Activities Section
     'activities.badge': 'Aventuras no Algarve',
@@ -1636,6 +1638,8 @@ const translations = {
     'proximity.location_highlights.beach': '300m from beach',
     'proximity.location_highlights.center': 'Village center',
     'proximity.location_highlights.seaview': 'Total sea view',
+    'proximity.airports.portimao': 'Portimão Municipal Aerodrome',
+    'proximity.airports.faro': 'Faro International Airport',
     
     // Activities Section
     'activities.badge': 'Algarve Adventures',
@@ -2286,6 +2290,8 @@ const translations = {
     'proximity.location_highlights.beach': '300m de la playa',
     'proximity.location_highlights.center': 'Centro del pueblo',
     'proximity.location_highlights.seaview': 'Vista al mar total',
+    'proximity.airports.portimao': 'Aeródromo Municipal de Portimão',
+    'proximity.airports.faro': 'Aeroporto Internacional de Faro',
     
     // Activities Section
     'activities.badge': 'Aventuras en el Algarve',
@@ -3149,6 +3155,8 @@ const translations = {
     'proximity.location_highlights.beach': '300m de la plage',
     'proximity.location_highlights.center': 'Centre du village',
     'proximity.location_highlights.seaview': 'Vue mer totale',
+    'proximity.airports.portimao': 'Aérodrome Municipal de Portimão',
+    'proximity.airports.faro': 'Aéroport International de Faro',
     
     // Activities Section
     'activities.badge': 'Aventures en Algarve',
@@ -3932,6 +3940,8 @@ const translations = {
     'proximity.location_highlights.beach': '300m vom Strand',
     'proximity.location_highlights.center': 'Dorfzentrum',
     'proximity.location_highlights.seaview': 'Kompletter Meerblick',
+    'proximity.airports.portimao': 'Kommunaler Flugplatz Portimão',
+    'proximity.airports.faro': 'Internationaler Flughafen Faro',
     
     // Activities Section
     'activities.badge': 'Algarve Abenteuer',
