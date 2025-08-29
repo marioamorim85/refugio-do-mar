@@ -301,7 +301,16 @@ export default function Footer() {
                 >
                   <Heart className="w-4 h-4 fill-coral-500 text-coral-500" />
                 </motion.div>
-                <span>{t('footer.made_in')}</span>
+                <span>{t('footer.made_by')}</span>
+                <motion.a 
+                  href="https://portfolio.marioamorim.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.05 }}
+                  className="text-coral-400 hover:text-coral-300 transition-colors font-medium"
+                >
+                  Mário Amorim
+                </motion.a>
               </motion.div>
             </div>
           </motion.div>
