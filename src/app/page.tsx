@@ -55,7 +55,7 @@ export default function Home() {
       <ContactSection />
       <Footer />
       <VacationToasts />
-      <PortugueseWelcome />
+      {/* <PortugueseWelcome /> */}
     </main>
   )
 }
