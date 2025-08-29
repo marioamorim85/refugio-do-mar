@@ -363,6 +363,54 @@ export default function Navbar() {
                   <span className="relative z-10 font-medium">{t('nav.contact')}</span>
                 </button></li>
               </ul>
+              
+              {/* Mobile Language Selector */}
+              <div className="mt-6 mb-6">
+                <h3 className="text-sm font-medium text-gray-600 mb-3">{t('nav.language')}</h3>
+                <div className="grid grid-cols-2 gap-3">
+                  <button
+                    onClick={() => { setLanguage('pt'); setIsMenuOpen(false) }}
+                    className={`flex items-center gap-3 py-3 px-4 rounded-xl transition-all duration-300 ${
+                      language === 'pt' ? 'bg-blue-50/80 text-blue-700 border border-blue-100/50' : 'bg-white/60 text-gray-700 hover:bg-blue-50/60 hover:text-blue-700'
+                    }`}
+                  >
+                    <span className="text-lg">🇵🇹</span> Português
+                  </button>
+                  <button
+                    onClick={() => { setLanguage('en'); setIsMenuOpen(false) }}
+                    className={`flex items-center gap-3 py-3 px-4 rounded-xl transition-all duration-300 ${
+                      language === 'en' ? 'bg-blue-50/80 text-blue-700 border border-blue-100/50' : 'bg-white/60 text-gray-700 hover:bg-blue-50/60 hover:text-blue-700'
+                    }`}
+                  >
+                    <span className="text-lg">🇬🇧</span> English
+                  </button>
+                  <button
+                    onClick={() => { setLanguage('es'); setIsMenuOpen(false) }}
+                    className={`flex items-center gap-3 py-3 px-4 rounded-xl transition-all duration-300 ${
+                      language === 'es' ? 'bg-blue-50/80 text-blue-700 border border-blue-100/50' : 'bg-white/60 text-gray-700 hover:bg-blue-50/60 hover:text-blue-700'
+                    }`}
+                  >
+                    <span className="text-lg">🇪🇸</span> Español
+                  </button>
+                  <button
+                    onClick={() => { setLanguage('fr'); setIsMenuOpen(false) }}
+                    className={`flex items-center gap-3 py-3 px-4 rounded-xl transition-all duration-300 ${
+                      language === 'fr' ? 'bg-blue-50/80 text-blue-700 border border-blue-100/50' : 'bg-white/60 text-gray-700 hover:bg-blue-50/60 hover:text-blue-700'
+                    }`}
+                  >
+                    <span className="text-lg">🇫🇷</span> Français
+                  </button>
+                  <button
+                    onClick={() => { setLanguage('de'); setIsMenuOpen(false) }}
+                    className={`flex items-center gap-3 py-3 px-4 rounded-xl transition-all duration-300 ${
+                      language === 'de' ? 'bg-blue-50/80 text-blue-700 border border-blue-100/50' : 'bg-white/60 text-gray-700 hover:bg-blue-50/60 hover:text-blue-700'
+                    }`}
+                  >
+                    <span className="text-lg">🇩🇪</span> Deutsch
+                  </button>
+                </div>
+              </div>
+
               <Button 
                 className="w-full mt-6 relative overflow-hidden bg-gradient-to-r from-blue-600 via-blue-500 to-teal-500 hover:from-blue-700 hover:via-blue-600 hover:to-teal-600 text-white py-4 font-semibold rounded-2xl shadow-lg shadow-blue-500/25 hover:shadow-xl hover:shadow-blue-500/35 transition-all duration-300 transform hover:scale-[1.02] group"
                 onClick={() => scrollToSection('booking')}
