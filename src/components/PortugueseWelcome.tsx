@@ -54,8 +54,8 @@ export default function PortugueseWelcome() {
             transition={{ type: "spring", duration: 0.6 }}
             className="bg-white rounded-3xl shadow-2xl max-w-md w-full overflow-hidden relative"
           >
-            {/* Header with Portuguese flag pattern */}
-            <div className="bg-gradient-to-r from-green-500 via-red-500 to-green-500 h-2" />
+            {/* Header with Portuguese coastal pattern */}
+            <div className="bg-gradient-to-r from-blue-500 via-sky-400 to-teal-300 h-2" />
             
             {/* Close button */}
             <button

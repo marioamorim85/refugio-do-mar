@@ -143,7 +143,7 @@ export const PortugueseMagic = () => {
               <p className="text-lg mb-6">
                 {t('magic.secret.message')}
                 <br />
-                <span className="text-yellow-300">
+                <span className="text-sand-400">
                   {t('magic.secret.discount')}
                 </span>
               </p>
