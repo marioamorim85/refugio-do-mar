@@ -40,205 +40,203 @@ export default function TermosCondicoes() {
   }
 
   const sections = [
-    {
-      icon: FileText,
-      titleKey: "terms.general.title",
-      contentKeys: [
-        "terms.general.content.1",
-        "terms.general.content.2",
-        "terms.general.content.3",
-        "terms.general.content.4"
-      ]
-    },
-    {
-      icon: Calendar,
-      titleKey: "terms.booking.title",
-      contentKeys: [
-        "terms.booking.content.1",
-        "terms.booking.content.2",
-        "terms.booking.content.3",
-        "terms.booking.content.4",
-        "terms.booking.content.5",
-        "terms.booking.content.6",
-        "terms.booking.content.7",
-        "terms.booking.content.8",
-        "terms.booking.content.9",
-        "terms.booking.content.10"
-      ]
-    },
-    {
-      icon: Clock,
-      titleKey: "terms.checkin.title",
-      contentKeys: [
-        "terms.checkin.content.1",
-        "terms.checkin.content.2",
-        "terms.checkin.content.3",
-        "terms.checkin.content.4",
-        "terms.checkin.content.5",
-        "terms.checkin.content.6",
-        "terms.checkin.content.7",
-        "terms.checkin.content.8",
-        "terms.checkin.content.9",
-        "terms.checkin.content.10",
-        "terms.checkin.content.11"
-      ]
-    },
-    {
-      icon: Home,
-      titleKey: "terms.property.title",
-      contentKeys: [
-        "terms.property.content.1",
-        "terms.property.content.2",
-        "terms.property.content.3",
-        "terms.property.content.4",
-        "terms.property.content.5",
-        "terms.property.content.6",
-        "terms.property.content.7",
-        "terms.property.content.8",
-        "terms.property.content.9",
-        "terms.property.content.10",
-        "terms.property.content.11"
-      ]
-    },
-    {
-      icon: Users,
-      titleKey: "terms.responsibilities.title",
-      contentKeys: [
-        "terms.responsibilities.content.1",
-        "terms.responsibilities.content.2",
-        "terms.responsibilities.content.3",
-        "terms.responsibilities.content.4",
-        "terms.responsibilities.content.5",
-        "terms.responsibilities.content.6",
-        "terms.responsibilities.content.7"
-      ]
-    },
-    {
-      icon: Shield,
-      titleKey: "terms.cancellation.title",
-      contentKeys: [
-        "terms.cancellation.content.1",
-        "terms.cancellation.content.2",
-        "terms.cancellation.content.3",
-        "terms.cancellation.content.4",
-        "terms.cancellation.content.5",
-        "terms.cancellation.content.6",
-        "terms.cancellation.content.7",
-        "terms.cancellation.content.8",
-        "terms.cancellation.content.9",
-        "terms.cancellation.content.10"
-      ]
-    },
-    {
-      icon: AlertTriangle,
-      titleKey: "terms.liability.title",
-      contentKeys: [
-        "terms.liability.content.1",
-        "terms.liability.content.2",
-        "terms.liability.content.3",
-        "terms.liability.content.4",
-        "terms.liability.content.5",
-        "terms.liability.content.6",
-        "terms.liability.content.7",
-        "terms.liability.content.8",
-        "terms.liability.content.9",
-        "terms.liability.content.10"
-      ]
-    },
-    {
-      icon: Gavel,
-      titleKey: "terms.law.title",
-      contentKeys: [
-        "terms.law.content.1",
-        "terms.law.content.2",
-        "terms.law.content.3",
-        "terms.law.content.4",
-        "terms.law.content.5",
-        "terms.law.content.6",
-        "terms.law.content.7",
-        "terms.law.content.8",
-        "terms.law.content.9"
-      ]
-    },
-    {
-      icon: Zap,
-      titleKey: "terms.force_majeure.title",
-      contentKeys: [
-        "terms.force_majeure.definition",
-        "terms.force_majeure.events",
-        "terms.force_majeure.restrictions",
-        "terms.force_majeure.utilities",
-        "terms.force_majeure.consequences",
-        "terms.force_majeure.assistance"
-      ]
-    },
-    {
-      icon: Copyright,
-      titleKey: "terms.intellectual.title",
-      contentKeys: [
-        "terms.intellectual.ownership",
-        "terms.intellectual.photos",
-        "terms.intellectual.prohibited",
-        "terms.intellectual.guest_photos",
-        "terms.intellectual.social_media"
-      ]
-    },
-    {
-      icon: Edit,
-      titleKey: "terms.modifications.title",
-      contentKeys: [
-        "terms.modifications.intro",
-        "terms.modifications.notification",
-        "terms.modifications.effective",
-        "terms.modifications.disagreement",
-        "terms.modifications.website"
-      ]
-    },
-    {
-      icon: Scale,
-      titleKey: "terms.severability.title",
-      contentKeys: [
-        "terms.severability.invalid",
-        "terms.severability.replacement",
-        "terms.severability.interpretation"
-      ]
-    },
-    {
-      icon: Database,
-      titleKey: "terms.data_protection.title",
-      contentKeys: [
-        "terms.data_protection.gdpr",
-        "terms.data_protection.processing",
-        "terms.data_protection.booking",
-        "terms.data_protection.legal",
-        "terms.data_protection.communication",
-        "terms.data_protection.rights"
-      ]
-    },
-    {
-      icon: ShieldCheck,
-      titleKey: "terms.consumer.title",
-      contentKeys: [
-        "terms.consumer.portuguese_law",
-        "terms.consumer.complaints",
-        "terms.consumer.authorities",
-        "terms.consumer.mediation",
-        "terms.consumer.portal",
-        "terms.consumer.protection"
-      ]
-    },
-    {
-      icon: Phone,
-      titleKey: "terms.emergency.title",
-      contentKeys: [
-        "terms.emergency.contact",
-        "terms.emergency.services",
-        "terms.emergency.property",
-        "terms.emergency.medical",
-        "terms.emergency.location"
-      ]
-    }
-  ]
+  {
+    icon: FileText,
+    titleKey: "terms.general.title",
+    contentKeys: [
+      "terms.general.content.1",
+      "terms.general.content.2",
+      "terms.general.content.3",
+      "terms.general.content.4",
+    ],
+  },
+  {
+    icon: Calendar,
+    titleKey: "terms.booking.title",
+    contentKeys: [
+      "terms.booking.content.1",
+      "terms.booking.content.2",
+      "terms.booking.content.3",
+      "terms.booking.content.4",
+      "terms.booking.content.5", // \u200B
+      "terms.booking.content.6",
+      "terms.booking.content.7",
+      "terms.booking.content.8",
+      "terms.booking.content.9",
+      "terms.booking.content.10",
+    ],
+  },
+  {
+    icon: Clock,
+    titleKey: "terms.checkin.title",
+    contentKeys: [
+      "terms.checkin.content.1",
+      "terms.checkin.content.2",
+      "terms.checkin.content.3",
+      "terms.checkin.content.4",
+      "terms.checkin.content.5",
+      "terms.checkin.content.6", // \u200B
+      "terms.checkin.content.7",
+      "terms.checkin.content.8",
+      "terms.checkin.content.9",
+      "terms.checkin.content.10",
+      "terms.checkin.content.11",
+    ],
+  },
+  {
+    icon: Home,
+    titleKey: "terms.property.title",
+    contentKeys: [
+      "terms.property.content.1",
+      "terms.property.content.2",
+      "terms.property.content.3",
+      "terms.property.content.4",
+      "terms.property.content.5",
+      "terms.property.content.6", // \u200B
+      "terms.property.content.7",
+      "terms.property.content.8",
+      "terms.property.content.9",
+      "terms.property.content.10",
+      "terms.property.content.11",
+    ],
+  },
+  {
+    icon: Users,
+    titleKey: "terms.responsibilities.title",
+    contentKeys: [
+      "terms.responsibilities.content.1",
+      "terms.responsibilities.content.2",
+      "terms.responsibilities.content.3",
+      "terms.responsibilities.content.4",
+      "terms.responsibilities.content.5",
+      "terms.responsibilities.content.6",
+      "terms.responsibilities.content.7",
+    ],
+  },
+  {
+    icon: Shield,
+    titleKey: "terms.cancellation.title",
+    contentKeys: [
+      "terms.cancellation.content.1",
+      "terms.cancellation.content.2",
+      "terms.cancellation.content.3",
+      "terms.cancellation.content.4",
+      "terms.cancellation.content.5",
+      "terms.cancellation.content.6", // \u200B
+      "terms.cancellation.content.7",
+      "terms.cancellation.content.8",
+      "terms.cancellation.content.9",
+      "terms.cancellation.content.10",
+    ],
+  },
+  {
+    icon: AlertTriangle,
+    titleKey: "terms.liability.title",
+    contentKeys: [
+      "terms.liability.content.1",
+      "terms.liability.content.2",
+      "terms.liability.content.3",
+      "terms.liability.content.4",
+      "terms.liability.content.5",
+      "terms.liability.content.6",
+      "terms.liability.content.7", // \u200B
+      "terms.liability.content.8",
+      "terms.liability.content.9",
+      "terms.liability.content.10",
+    ],
+  },
+  {
+    icon: Gavel,
+    titleKey: "terms.law.title",
+    contentKeys: [
+      "terms.law.content.1",
+      "terms.law.content.2",
+      "terms.law.content.3",
+      "terms.law.content.4",
+      "terms.law.content.5", // \u200B
+      "terms.law.content.6",
+      "terms.law.content.7",
+      "terms.law.content.8",
+      "terms.law.content.9",
+    ],
+  },
+  {
+    icon: Zap,
+    titleKey: "terms.force_majeure.title",
+    contentKeys: [
+      "terms.force_majeure.intro",
+      "terms.force_majeure.natural",
+      "terms.force_majeure.pandemic",
+      "terms.force_majeure.government",
+      "terms.force_majeure.infrastructure",
+      "terms.force_majeure.remedy",
+    ],
+  },
+  {
+    icon: Copyright,
+    titleKey: "terms.intellectual.title",
+    contentKeys: [
+      "terms.intellectual.ownership",
+      "terms.intellectual.images",
+      "terms.intellectual.trademark",
+      "terms.intellectual.guest_content",
+    ],
+  },
+  {
+    icon: Edit,
+    titleKey: "terms.modifications.title",
+    contentKeys: [
+      "terms.modifications.intro",
+      "terms.modifications.notification",
+      "terms.modifications.effective",
+      "terms.modifications.disagreement",
+      "terms.modifications.website",
+    ],
+  },
+  {
+    icon: Scale,
+    titleKey: "terms.severability.title",
+    contentKeys: [
+      "terms.severability.invalid",
+      "terms.severability.replacement",
+      "terms.severability.interpretation",
+    ],
+  },
+  {
+    icon: Database,
+    titleKey: "terms.data_protection.title",
+    contentKeys: [
+      "terms.data_protection.content.1",
+      "terms.data_protection.content.2",
+      "terms.data_protection.content.3",
+      "terms.data_protection.content.4",
+    ],
+  },
+  {
+    icon: ShieldCheck,
+    titleKey: "terms.consumer.title",
+    contentKeys: [
+      "terms.consumer.portuguese_law",
+      "terms.consumer.complaints",
+      "terms.consumer.authorities",
+      "terms.consumer.mediation",
+      "terms.consumer.portal",
+      "terms.consumer.protection",
+    ],
+  },
+  {
+    icon: Phone,
+    titleKey: "terms.emergency.title",
+    contentKeys: [
+      "terms.emergency.contact",
+      "terms.emergency.services",
+      "terms.emergency.property",
+      "terms.emergency.medical",
+      "terms.emergency.location",
+    ],
+  },
+];
+
 
   return (
     <>
@@ -269,7 +267,7 @@ export default function TermosCondicoes() {
             >
               <Link 
                 href="/"
-                className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors group"
+                className="inline-flex items-center gap-4 text-blue-600 hover:text-blue-700 transition-colors group"
               >
                 <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
 {t('terms.back_button')}
@@ -286,7 +284,7 @@ export default function TermosCondicoes() {
               </motion.div>
             </div>
 
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gradient-fix">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gradient-fix pb-2">
               {t('terms.title')}
             </h1>
             

@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
+import Link from "next/link"
 import { 
   Mail, 
   Phone, 
@@ -237,14 +238,15 @@ export default function Footer() {
                     { href: "/politica-cancelamento", labelKey: "footer.legal.cancellation" }
                   ].map((link, index) => (
                     <li key={index}>
-                      <motion.a 
-                        href={link.href}
-                        whileHover={{ x: 4 }}
-                        className="text-blue-100/70 hover:text-white transition-all duration-300 text-sm flex items-center gap-2 group"
-                      >
-                        <div className="w-1 h-1 rounded-full bg-blue-400/50 group-hover:bg-coral-400 transition-colors" />
-                        {t(link.labelKey)}
-                      </motion.a>
+                      <Link href={link.href} legacyBehavior passHref>
+                        <motion.a 
+                          whileHover={{ x: 4 }}
+                          className="text-blue-100/70 hover:text-white transition-all duration-300 text-sm flex items-center gap-2 group"
+                        >
+                          <div className="w-1 h-1 rounded-full bg-blue-400/50 group-hover:bg-coral-400 transition-colors" />
+                          {t(link.labelKey)}
+                        </motion.a>
+                      </Link>
                     </li>
                   ))}
                 </ul>

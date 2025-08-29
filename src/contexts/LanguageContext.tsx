@@ -528,60 +528,8 @@ const translations = {
     'privacy.contact.response_time': 'Respondemos a todas as solicitações no prazo máximo de 30 dias.',
     'privacy.contact.complaint': 'Tem direito a apresentar queixa à CNPD se considerar que violamos a sua privacidade.',
 
-    // Legal Basis for Processing
-    'privacy.legal_basis.title': 'Base Legal para Processamento',
-    'privacy.legal_basis.contract': '• Execução de contrato: Processamos os seus dados para gerir reservas e prestar serviços de alojamento.',
-    'privacy.legal_basis.legitimate': '• Interesse legítimo: Para comunicações comerciais com hóspedes anteriores e melhoramento dos serviços.',
-    'privacy.legal_basis.consent': '• Consentimento: Para marketing direto e cookies não essenciais (pode retirar a qualquer momento).',
-    'privacy.legal_basis.legal': '• Obrigação legal: Para cumprimento de obrigações fiscais e regulamentares (Turismo de Portugal, AT).',
-    'privacy.legal_basis.vital': '• Interesses vitais: Em situações de emergência para proteção da sua segurança.',
-
-    // International Transfers
-    'privacy.international.title': 'Transferências Internacionais',
-    'privacy.international.policy': 'Os seus dados são processados principalmente em Portugal (UE). Algumas transferências podem ocorrer:',
-    'privacy.international.analytics': '• Google Analytics (EUA) - Decisão de adequação UE-EUA e cláusulas contratuais tipo',
-    'privacy.international.whatsapp': '• WhatsApp Business (Meta, EUA) - Apenas dados de contacto necessários',
-    'privacy.international.safeguards': '• Email providers - Servidores na UE com garantias adequadas de proteção',
-    'privacy.international.rights': 'Mantém todos os direitos GDPR independentemente da localização do processamento.',
-
-    // Cookies and Tracking
-    'privacy.cookies.title': 'Cookies e Rastreamento',
-    'privacy.cookies.essential': '• Essenciais: Funcionamento do website, gestão de sessões (não requerem consentimento)',
-    'privacy.cookies.analytics': '• Analytics: Google Analytics para estatísticas anónimas (pode desativar)',
-    'privacy.cookies.marketing': '• Marketing: Apenas com consentimento explícito para personalização',
-    'privacy.cookies.control': '• Controlo: Pode gerir preferências através do banner de cookies',
-    'privacy.cookies.duration': '• Duração: De sessão até 2 anos, dependendo da finalidade',
-
-    // Children Protection
-    'privacy.children.title': 'Proteção de Menores',
-    'privacy.children.policy': 'Não recolhemos intencionalmente dados de menores de 16 anos.',
-    'privacy.children.parental': 'Reservas com crianças requerem dados do responsável parental.',
-    'privacy.children.removal': 'Se identificarmos dados de menores sem consentimento parental, removemo-los imediatamente.',
-    'privacy.children.contact': 'Contacte-nos se tiver preocupações sobre dados de menores.',
-
-    // Automated Decision Making
-    'privacy.automated.title': 'Decisões Automatizadas',
-    'privacy.automated.none': 'Não utilizamos sistemas de decisão totalmente automatizados.',
-    'privacy.automated.fraud': 'Apenas verificações automáticas básicas para prevenção de fraude.',
-    'privacy.automated.human': 'Todas as decisões importantes sobre reservas envolvem revisão humana.',
-
-    // Data Breaches
-    'privacy.breach.title': 'Violações de Dados',
-    'privacy.breach.notification': 'Em caso de violação de dados que possa afetar os seus direitos:',
-    'privacy.breach.authorities': '• Notificaremos as autoridades competentes em 72 horas',
-    'privacy.breach.users': '• Informaremos os afetados sem demora injustificada',
-    'privacy.breach.measures': '• Implementaremos medidas para minimizar impactos',
-    'privacy.breach.prevention': '• Reforçaremos medidas de segurança para prevenir recorrências',
-
-    // Policy Updates
-    'privacy.updates.title': 'Alterações à Política',
-    'privacy.updates.notification': 'Alterações significativas serão comunicadas com 30 dias de antecedência.',
-    'privacy.updates.methods': '• Por email aos contactos registados • Aviso no website',
-    'privacy.updates.website': '• A versão atual está sempre disponível no nosso website',
-    'privacy.updates.date': '• A data da última atualização está claramente indicada',
-    'privacy.updates.continue': 'O uso continuado dos serviços após alterações constitui aceitação.',
     
-    // Terms and Conditions Page
+    // Terms and Conditions Page (pt-PT)
     'terms.back_button': 'Voltar ao início',
     'terms.title': 'Termos e Condições',
     'terms.subtitle': 'Conheça os termos que regem a sua estadia no Refúgio no Mar. Transparentes, justos e em conformidade com a legislação portuguesa.',
@@ -589,55 +537,55 @@ const translations = {
     'terms.last_updated': 'Última atualização: 26 agosto 2025',
     'terms.intro': 'Bem-vindo ao Refúgio no Mar. Estes termos e condições estabelecem as regras para a sua estadia no nosso apartamento de luxo em Armação de Pêra. Leia atentamente antes de efetuar a sua reserva.',
     
-    // General Information
+    // 1) Informações Gerais
     'terms.general.title': '1. Informações Gerais',
-    'terms.general.content.1': 'Estes termos e condições regem a sua utilização dos serviços de alojamento oferecidos pelo Refúgio no Mar.',
+    'terms.general.content.1': 'Estes termos e condições regem a utilização dos serviços de alojamento oferecidos pelo Refúgio no Mar.',
     'terms.general.content.2': 'Propriedade localizada na Rua da Sardinha, 3, 8365-101 Armação de Pêra, Portugal.',
     'terms.general.content.3': 'RNAL nº 163178/AL - Licenciado pelo Turismo de Portugal.',
-    'terms.general.content.4': 'Ao efetuar uma reserva, concorda com estes termos na sua totalidade.',
-    
-    // Bookings and Payments
+    'terms.general.content.4': 'Ao efetuar uma reserva, assumes a aceitação integral destes termos.',
+
+    // 2) Reservas e Pagamentos
     'terms.booking.title': '2. Reservas e Pagamentos',
     'terms.booking.content.1': 'Confirmação de Reserva:',
     'terms.booking.content.2': '• Todas as reservas estão sujeitas a confirmação e disponibilidade',
     'terms.booking.content.3': '• A reserva só é confirmada após pagamento integral',
-    'terms.booking.content.4': '• Receberá confirmação por email com todos os detalhes',
-    'terms.booking.content.5': '',
+    'terms.booking.content.4': '• Receberás confirmação por email com todos os detalhes',
+    'terms.booking.content.5': '\u200B',
     'terms.booking.content.6': 'Pagamentos:',
     'terms.booking.content.7': '• Pagamento total devido antes da chegada',
-    'terms.booking.content.8': '• Transferência bancária, MB Way, ou cartão de crédito',
+    'terms.booking.content.8': '• Transferência bancária, MB Way ou cartão de crédito',
     'terms.booking.content.9': '• Todos os preços incluem IVA quando aplicável',
     'terms.booking.content.10': '• Preços em euros (€) - moeda oficial',
-    
-    // Check-in and Check-out
+
+    // 3) Check-in e Check-out
     'terms.checkin.title': '3. Check-in e Check-out',
-    'terms.checkin.content.1': 'Horários Standard:',
-    'terms.checkin.content.2': '• Check-in: A partir das 16:00 horas',
-    'terms.checkin.content.3': '• Check-out: Até às 10:00 horas',
+    'terms.checkin.content.1': 'Horários padrão:',
+    'terms.checkin.content.2': '• Check-in: a partir das 16:00',
+    'terms.checkin.content.3': '• Check-out: até às 10:00',
     'terms.checkin.content.4': '• Check-in tardio disponível mediante acordo prévio',
     'terms.checkin.content.5': '• Check-out antecipado possível a pedido',
-    'terms.checkin.content.6': '',
+    'terms.checkin.content.6': '\u200B', 
     'terms.checkin.content.7': 'Capacidade e Hóspedes:',
     'terms.checkin.content.8': '• Máximo de 4 hóspedes por reserva',
     'terms.checkin.content.9': '• Crianças de todas as idades são bem-vindas',
     'terms.checkin.content.10': '• Berço disponível por 25€ (sob consulta)',
     'terms.checkin.content.11': '• Hóspedes adicionais não autorizados',
-    
-    // Property Rules
+
+    // 4) Regras da Propriedade
     'terms.property.title': '4. Regras da Propriedade',
     'terms.property.content.1': 'Comportamento e Conduta:',
     'terms.property.content.2': '• Proibido fumar em todas as áreas interiores',
     'terms.property.content.3': '• Não são permitidas festas ou eventos barulhentos',
     'terms.property.content.4': '• Horário de silêncio: 22:00 - 08:00',
     'terms.property.content.5': '• Animais de estimação não são permitidos',
-    'terms.property.content.6': '',
+    'terms.property.content.6': '\u200B',
     'terms.property.content.7': 'Utilização das Instalações:',
     'terms.property.content.8': '• Piscina disponível sazonalmente (maio a outubro)',
     'terms.property.content.9': '• Utilização por sua conta e risco',
     'terms.property.content.10': '• Manter a propriedade limpa e organizada',
     'terms.property.content.11': '• Respeitar os vizinhos e propriedades adjacentes',
-    
-    // Guest Responsibilities
+
+    // 5) Responsabilidades do Hóspede
     'terms.responsibilities.title': '5. Responsabilidades do Hóspede',
     'terms.responsibilities.content.1': 'Durante a sua estadia, compromete-se a:',
     'terms.responsibilities.content.2': '• Tratar a propriedade com cuidado e respeito',
@@ -646,21 +594,21 @@ const translations = {
     'terms.responsibilities.content.5': '• Não perturbar outros hóspedes ou vizinhos',
     'terms.responsibilities.content.6': '• Deixar a propriedade em condições adequadas',
     'terms.responsibilities.content.7': '• Não realizar atividades ilegais na propriedade',
-    
-    // Cancellations and Refunds
+
+    // 6) Cancelamentos e Reembolsos
     'terms.cancellation.title': '6. Cancelamentos e Reembolsão',
     'terms.cancellation.content.1': 'Política de Cancelamento:',
     'terms.cancellation.content.2': '• Cancelamento até 30 dias: reembolsão total',
     'terms.cancellation.content.3': '• Cancelamento 15-29 dias: reembolsão de 50%',
     'terms.cancellation.content.4': '• Cancelamento inferior a 15 dias: sem reembolsão',
     'terms.cancellation.content.5': '• No-show: sem reembolsão',
-    'terms.cancellation.content.6': '',
+    'terms.cancellation.content.6': '\u200B',
     'terms.cancellation.content.7': 'Cancelamentos por nossa parte:',
     'terms.cancellation.content.8': '• Reembolsão integral em caso de cancelamento nossa responsabilidade',
     'terms.cancellation.content.9': '• Auxílio na procura de alojamento alternativo',
     'terms.cancellation.content.10': '• Compensação adicional conforme legislação aplicável',
-    
-    // Liability Limitation
+
+    // 7) Limitação de Responsabilidade
     'terms.liability.title': '7. Limitação de Responsabilidade',
     'terms.liability.content.1': 'O Refúgio no Mar não se responsabiliza por:',
     'terms.liability.content.2': '• Perda, roubo ou dano de pertences pessoais',
@@ -668,96 +616,76 @@ const translations = {
     'terms.liability.content.4': '• Interrupções de serviços públicos (eletricidade, água, internet)',
     'terms.liability.content.5': '• Condições meteorológicas adversas',
     'terms.liability.content.6': '• Circunstâncias de força maior',
-    'terms.liability.content.7': '',
+    'terms.liability.content.7': '\u200B',
     'terms.liability.content.8': 'Recomendações:',
     'terms.liability.content.9': '• Seguro de viagem com cobertura de alojamento',
     'terms.liability.content.10': '• Segurança pessoal e dos seus pertences',
-    
-    // Law and Jurisdiction
+
+    // 8) Lei Aplicável e Jurisdição
     'terms.law.title': '8. Lei Aplicável e Jurisdição',
     'terms.law.content.1': 'Estes termos são regidos pela legislação portuguesa.',
     'terms.law.content.2': 'Qualquer litígio será resolvido nos tribunais portugueses.',
     'terms.law.content.3': 'Tentaremos sempre resolver disputas de forma amigável.',
     'terms.law.content.4': 'Contacte-nos primeiro em caso de qualquer problema.',
-    'terms.law.content.5': '',
+    'terms.law.content.5': '\u200B',
     'terms.law.content.6': 'Direitos do Consumidor:',
     'terms.law.content.7': '• Respeito integral pelos direitos do consumidor europeu',
     'terms.law.content.8': '• Portal da Queixa disponível para reclamações',
     'terms.law.content.9': '• Livro de reclamações eletrónico acessível',
-    
-    // Contact
-    // Force Majeure Section
+
+    // 9) Força Maior
     'terms.force_majeure.title': '9. Força Maior',
     'terms.force_majeure.intro': 'Não somos responsáveis por incumprimentos devido a:',
     'terms.force_majeure.natural': '• Desastres naturais, terramotos, inundações',
     'terms.force_majeure.pandemic': '• Pandemias, epidemias, restrições sanitárias',
     'terms.force_majeure.government': '• Atos governamentais, guerra, terrorismo',
     'terms.force_majeure.infrastructure': '• Falhas de infraestrutura fora do nosso controlo',
-    'terms.force_majeure.remedy': 'Nestas situações, tentaremos encontrar soluções alternativas.',
+    'terms.force_majeure.remedy': 'Nestas situações, procuraremos soluções alternativas.',
 
-    // Intellectual Property Section
+    // 10) Propriedade Intelectual
     'terms.intellectual.title': '10. Propriedade Intelectual',
     'terms.intellectual.ownership': 'Todos os conteúdos do website são propriedade do Refúgio no Mar.',
     'terms.intellectual.images': 'As fotografias não podem ser utilizadas sem autorização prévia.',
     'terms.intellectual.trademark': 'O nome "Refúgio no Mar" é marca registada.',
-    'terms.intellectual.guest_content': 'Ao partilhar fotos/reviews, concede-nos licença de uso para marketing.',
+    'terms.intellectual.guest_content': 'Ao partilhares fotos/avaliações, concedes-nos licença de uso para fins de marketing.',
 
-    // Modifications Section
+    // 11) Alterações aos Termos
     'terms.modifications.title': '11. Alterações aos Termos',
     'terms.modifications.intro': 'Estes termos podem ser alterados periodicamente:',
     'terms.modifications.notification': '• Alterações significativas serão comunicadas por email',
-    'terms.modifications.effective': '• Alterações entram em vigor 30 dias após publicação',
+    'terms.modifications.effective': '• Entram em vigor 30 dias após publicação',
     'terms.modifications.disagreement': '• Se não concordar, pode cancelar reservas futuras',
     'terms.modifications.website': '• Versão atual disponível no website',
 
-    // Severability Section
+    // 12) Divisibilidade
     'terms.severability.title': '12. Divisibilidade',
     'terms.severability.invalid': 'Se alguma cláusula for considerada inválida, as restantes mantêm-se em vigor.',
     'terms.severability.replacement': 'Cláusulas inválidas serão substituídas por disposições legais equivalentes.',
-    'terms.severability.interpretation': 'Interpretação sempre no sentido mais favorável ao consumidor.',
+    'terms.severability.interpretation': 'A interpretação será feita no sentido mais favorável ao consumidor.',
 
-    // Emergency Procedures Section
-    'terms.emergency.title': '13. Procedimentos de Emergência',
-    'terms.emergency.contact': 'Em caso de emergência, contacte imediatamente:',
-    'terms.emergency.services': '• Emergências: 112 (número europeu de emergência)',
-    'terms.emergency.property': '• Problemas na propriedade: +41 76 583 0782',
-    'terms.emergency.medical': '• Hospital mais próximo: Hospital de Portimão (15 min)',
-    'terms.emergency.location': '• Morada exata: Rua da Sardinha, 3, 8365-101 Armação de Pêra',
+    // 13) Proteção de Dados Pessoais
+    'terms.data_protection.title': '13. Proteção de Dados Pessoais',
+    'terms.data_protection.content.1': 'Tratamos os teus dados pessoais em conformidade com o RGPD e legislação nacional aplicável.',
+    'terms.data_protection.content.2': 'Os dados recolhidos destinam-se exclusivamente à gestão da reserva e obrigações legais.',
+    'terms.data_protection.content.3': 'Tens direito de acesso, retificação e eliminação dos teus dados, nos termos da lei.',
+    'terms.data_protection.content.4': 'Contacta-nos para exercer direitos de proteção de dados.',
 
-    // Force Majeure Section  
-    'terms.force_majeure.title': '14. Força Maior',
-    'terms.force_majeure.definition': 'Consideramos força maior eventos imprevisíveis e inevitáveis:',
-    'terms.force_majeure.events': '• Pandemias, calamidades naturais, greves, guerra',
-    'terms.force_majeure.restrictions': '• Restrições governamentais de viagem ou alojamento',
-    'terms.force_majeure.utilities': '• Falhas prolongadas de serviços essenciais',
-    'terms.force_majeure.consequences': 'Em caso de força maior: cancelamento sem penalizações para ambas as partes.',
-    'terms.force_majeure.assistance': 'Auxiliamos na reorganização ou cancelamento com reembolso integral.',
-
-    // Intellectual Property Section
-    'terms.intellectual.title': '15. Propriedade Intelectual',
-    'terms.intellectual.ownership': 'Todos os conteúdos do site e propriedade pertencem ao Refúgio no Mar:',
-    'terms.intellectual.photos': '• Fotografias, textos, logótipos e marca registada',
-    'terms.intellectual.prohibited': '• Uso comercial não autorizado é proibido',
-    'terms.intellectual.guest_photos': '• Pode fotografar durante a estadia para uso pessoal',
-    'terms.intellectual.social_media': '• Partilha em redes sociais é bem-vinda (mencione-nos!)',
-
-    // Personal Data Protection
-    'terms.data_protection.title': '16. Proteção de Dados Pessoais',
-    'terms.data_protection.gdpr': 'Cumprimos rigorosamente o RGPD (Regulamento Geral de Proteção de Dados).',
-    'terms.data_protection.processing': 'Os seus dados são processados apenas para:',
-    'terms.data_protection.booking': '• Gestão de reservas e prestação de serviços',
-    'terms.data_protection.legal': '• Cumprimento de obrigações legais (AT, Turismo Portugal)',
-    'terms.data_protection.communication': '• Comunicações relacionadas com a estadia',
-    'terms.data_protection.rights': 'Consulte a nossa Política de Privacidade para conhecer os seus direitos.',
-
-    // Consumer Rights Section
-    'terms.consumer.title': '17. Direitos do Consumidor',
+    // 14) Direitos do Consumidor
+    'terms.consumer.title': '14. Direitos do Consumidor',
     'terms.consumer.portuguese_law': 'Como consumidor português/europeu, tem direitos protegidos por lei:',
     'terms.consumer.complaints': '• Livro de reclamações disponível (físico e eletrónico)',
     'terms.consumer.authorities': '• Pode recorrer a entidades de resolução de litígios',
     'terms.consumer.mediation': '• Centro de Arbitragem de Conflitos de Consumo do Algarve',
     'terms.consumer.portal': '• Portal do Consumidor: www.consumidor.gov.pt',
     'terms.consumer.protection': 'Nada nestes termos prejudica os seus direitos legais.',
+
+    // 15) Procedimentos de Emergência
+    'terms.emergency.title': '15. Procedimentos de Emergência',
+    'terms.emergency.contact': 'Em caso de emergência, contacta imediatamente:',
+    'terms.emergency.services': '• Emergências: 112 (número europeu de emergência)',
+    'terms.emergency.property': '• Problemas na propriedade: +41 76 583 0782',
+    'terms.emergency.medical': '• Hospital mais próximo: Hospital de Portimão (15 min)',
+    'terms.emergency.location': '• Morada exata: Rua da Sardinha, 3, 8365-101 Armação de Pêra',
 
     // Contact Section
     'terms.contact.title': 'Contacte-nos',
@@ -1508,60 +1436,12 @@ const translations = {
     'privacy.contact.response_time': 'We respond to all requests within a maximum of 30 days.',
     'privacy.contact.complaint': 'You have the right to lodge a complaint with CNPD if you consider that we have violated your privacy.',
 
-    // Legal Basis for Processing
-    'privacy.legal_basis.title': 'Legal Basis for Processing',
-    'privacy.legal_basis.contract': '• Contract performance: We process your data to manage bookings and provide accommodation services.',
-    'privacy.legal_basis.legitimate': '• Legitimate interest: For business communications with previous guests and service improvements.',
-    'privacy.legal_basis.consent': '• Consent: For direct marketing and non-essential cookies (you can withdraw at any time).',
-    'privacy.legal_basis.legal': '• Legal obligation: To comply with tax and regulatory obligations (Tourism Portugal, Tax Authority).',
-    'privacy.legal_basis.vital': '• Vital interests: In emergency situations to protect your safety.',
 
-    // International Transfers
-    'privacy.international.title': 'International Transfers',
-    'privacy.international.policy': 'Your data is processed primarily in Portugal (EU). Some transfers may occur to:',
-    'privacy.international.analytics': '• Google Analytics (USA) - EU-US adequacy decision and standard contractual clauses',
-    'privacy.international.whatsapp': '• WhatsApp Business (Meta, USA) - Only necessary contact data',
-    'privacy.international.safeguards': '• Email providers - EU servers with adequate protection guarantees',
-    'privacy.international.rights': 'You maintain all GDPR rights regardless of processing location.',
 
-    // Cookies and Tracking
-    'privacy.cookies.title': 'Cookies and Tracking',
-    'privacy.cookies.essential': '• Essential: Website functionality, session management (no consent required)',
-    'privacy.cookies.analytics': '• Analytics: Google Analytics for anonymous statistics (you can disable)',
-    'privacy.cookies.marketing': '• Marketing: Only with explicit consent for personalization',
-    'privacy.cookies.control': '• Control: You can manage preferences through the cookie banner',
-    'privacy.cookies.duration': '• Duration: From session to 2 years, depending on purpose',
 
-    // Children Protection
-    'privacy.children.title': 'Protection of Minors',
-    'privacy.children.policy': 'We do not intentionally collect data from minors under 16 years old.',
-    'privacy.children.parental': 'Bookings with children require parental guardian data.',
-    'privacy.children.removal': 'If we identify minor data without parental consent, we remove it immediately.',
-    'privacy.children.contact': 'Contact us if you have concerns about minor data.',
 
-    // Automated Decision Making
-    'privacy.automated.title': 'Automated Decisions',
-    'privacy.automated.none': 'We do not use fully automated decision-making systems.',
-    'privacy.automated.fraud': 'Only basic automatic checks for fraud prevention.',
-    'privacy.automated.human': 'All important booking decisions involve human review.',
-
-    // Data Breaches
-    'privacy.breach.title': 'Data Breaches',
-    'privacy.breach.notification': 'In case of a data breach that may affect your rights:',
-    'privacy.breach.authorities': '• We will notify competent authorities within 72 hours',
-    'privacy.breach.users': '• We will inform those affected without undue delay',
-    'privacy.breach.measures': '• We will implement measures to minimize impacts',
-    'privacy.breach.prevention': '• We will strengthen security measures to prevent recurrences',
-
-    // Policy Updates
-    'privacy.updates.title': 'Policy Changes',
-    'privacy.updates.notification': 'Significant changes will be communicated 30 days in advance.',
-    'privacy.updates.methods': '• By email to registered contacts • Notice on website',
-    'privacy.updates.website': '• Current version is always available on our website',
-    'privacy.updates.date': '• Last update date is clearly indicated',
-    'privacy.updates.continue': 'Continued use of services after changes constitutes acceptance.',
     
-    // Terms and Conditions Page
+    // Terms and Conditions Page - EN
     'terms.back_button': 'Back to home',
     'terms.title': 'Terms and Conditions',
     'terms.subtitle': 'Learn about the terms that govern your stay at Refúgio no Mar. Transparent, fair and in compliance with Portuguese legislation.',
@@ -1569,140 +1449,157 @@ const translations = {
     'terms.last_updated': 'Last updated: August 26, 2025',
     'terms.intro': 'Welcome to Refúgio no Mar. These terms and conditions establish the rules for your stay in our luxury apartment in Armação de Pêra. Please read carefully before making your booking.',
     
-    // General Information
+    // 1) General Information
     'terms.general.title': '1. General Information',
-    'terms.general.content.1': 'These terms and conditions govern your use of accommodation services offered by Refúgio no Mar.',
+    'terms.general.content.1': 'These terms and conditions govern the use of the accommodation services offered by Refúgio no Mar.',
     'terms.general.content.2': 'Property located at Rua da Sardinha, 3, 8365-101 Armação de Pêra, Portugal.',
-    'terms.general.content.3': 'RNAL nº 163178/AL - Licensed by Turismo de Portugal.',
-    'terms.general.content.4': 'By making a booking, you agree to these terms in their entirety.',
-    
-    // Bookings and Payments
+    'terms.general.content.3': 'RNAL nº 163178/AL – Licensed by Turismo de Portugal.',
+    'terms.general.content.4': 'By making a booking, you accept these terms in full.',
+
+    // 2) Bookings and Payments
     'terms.booking.title': '2. Bookings and Payments',
     'terms.booking.content.1': 'Booking Confirmation:',
     'terms.booking.content.2': '• All bookings are subject to confirmation and availability',
-    'terms.booking.content.3': '• The booking is only confirmed after full payment',
-    'terms.booking.content.4': '• You will receive email confirmation with all details',
-    'terms.booking.content.5': '',
+    'terms.booking.content.3': '• A booking is only confirmed after full payment',
+    'terms.booking.content.4': '• You will receive an email confirmation with all details',
+    'terms.booking.content.5': '\u200B',
     'terms.booking.content.6': 'Payments:',
-    'terms.booking.content.7': '• Total payment due before arrival',
-    'terms.booking.content.8': '• Bank transfer, MB Way, or credit card',
-    'terms.booking.content.9': '• All prices include VAT when applicable',
-    'terms.booking.content.10': '• Prices in euros (€) - official currency',
-    
-    // Check-in and Check-out
+    'terms.booking.content.7': '• Total payment is due before arrival',
+    'terms.booking.content.8': '• Bank transfer, MB Way or credit card',
+    'terms.booking.content.9': '• All prices include VAT where applicable',
+    'terms.booking.content.10': '• Prices in euros (€) – official currency',
+
+    // 3) Check-in and Check-out
     'terms.checkin.title': '3. Check-in and Check-out',
-    'terms.checkin.content.1': 'Standard Hours:',
-    'terms.checkin.content.2': '• Check-in: From 4:00 PM',
-    'terms.checkin.content.3': '• Check-out: Until 10:00 AM',
+    'terms.checkin.content.1': 'Standard hours:',
+    'terms.checkin.content.2': '• Check-in: from 16:00',
+    'terms.checkin.content.3': '• Check-out: until 10:00',
     'terms.checkin.content.4': '• Late check-in available by prior arrangement',
     'terms.checkin.content.5': '• Early check-out possible upon request',
-    'terms.checkin.content.6': '',
+    'terms.checkin.content.6': '\u200B',
     'terms.checkin.content.7': 'Capacity and Guests:',
     'terms.checkin.content.8': '• Maximum of 4 guests per booking',
     'terms.checkin.content.9': '• Children of all ages are welcome',
-    'terms.checkin.content.10': '• Crib available for €25 (upon request)',
-    'terms.checkin.content.11': '• Additional unauthorized guests not allowed',
-    
-    // Property Rules
+    'terms.checkin.content.10': '• Cot available for €25 (on request)',
+    'terms.checkin.content.11': '• Additional unauthorised guests are not allowed',
+
+    // 4) Property Rules
     'terms.property.title': '4. Property Rules',
-    'terms.property.content.1': 'Behavior and Conduct:',
-    'terms.property.content.2': '• Smoking prohibited in all indoor areas',
+    'terms.property.content.1': 'Behaviour and Conduct:',
+    'terms.property.content.2': '• Smoking is prohibited in all indoor areas',
     'terms.property.content.3': '• Parties or noisy events are not permitted',
-    'terms.property.content.4': '• Quiet hours: 10:00 PM - 8:00 AM',
+    'terms.property.content.4': '• Quiet hours: 22:00–08:00',
     'terms.property.content.5': '• Pets are not allowed',
-    'terms.property.content.6': '',
+    'terms.property.content.6': '\u200B',
     'terms.property.content.7': 'Use of Facilities:',
-    'terms.property.content.8': '• Pool available seasonally (May to October)',
+    'terms.property.content.8': '• Swimming pool available seasonally (May to October)',
     'terms.property.content.9': '• Use at your own risk',
-    'terms.property.content.10': '• Keep the property clean and organized',
-    'terms.property.content.11': '• Respect neighbors and adjacent properties',
-    
-    // Guest Responsibilities
+    'terms.property.content.10': '• Keep the property clean and tidy',
+    'terms.property.content.11': '• Respect neighbours and adjacent properties',
+
+    // 5) Guest Responsibilities
     'terms.responsibilities.title': '5. Guest Responsibilities',
-    'terms.responsibilities.content.1': 'During your stay, you commit to:',
+    'terms.responsibilities.content.1': 'During your stay, you agree to:',
     'terms.responsibilities.content.2': '• Treat the property with care and respect',
-    'terms.responsibilities.content.3': '• Report any damage or problems immediately',
+    'terms.responsibilities.content.3': '• Report any damage or issues immediately',
     'terms.responsibilities.content.4': '• Follow all local rules and national legislation',
-    'terms.responsibilities.content.5': '• Not disturb other guests or neighbors',
-    'terms.responsibilities.content.6': '• Leave the property in suitable conditions',
-    'terms.responsibilities.content.7': '• Not perform illegal activities on the property',
-    
-    // Cancellations and Refunds
+    'terms.responsibilities.content.5': '• Not disturb other guests or neighbours',
+    'terms.responsibilities.content.6': '• Leave the property in suitable condition',
+    'terms.responsibilities.content.7': '• Not engage in illegal activities on the property',
+
+    // 6) Cancellations and Refunds
     'terms.cancellation.title': '6. Cancellations and Refunds',
     'terms.cancellation.content.1': 'Cancellation Policy:',
     'terms.cancellation.content.2': '• Cancellation up to 30 days: full refund',
-    'terms.cancellation.content.3': '• Cancellation 15-29 days: 50% refund',
+    'terms.cancellation.content.3': '• Cancellation 15–29 days: 50% refund',
     'terms.cancellation.content.4': '• Cancellation less than 15 days: no refund',
     'terms.cancellation.content.5': '• No-show: no refund',
-    'terms.cancellation.content.6': '',
+    'terms.cancellation.content.6': '\u200B',
     'terms.cancellation.content.7': 'Cancellations by us:',
-    'terms.cancellation.content.8': '• Full refund in case of cancellation due to our responsibility',
-    'terms.cancellation.content.9': '• Assistance in finding alternative accommodation',
-    'terms.cancellation.content.10': '• Additional compensation according to applicable legislation',
-    
-    // Liability Limitation
+    'terms.cancellation.content.8': '• Full refund if cancellation is our responsibility',
+    'terms.cancellation.content.9': '• Support in finding alternative accommodation',
+    'terms.cancellation.content.10': '• Any additional compensation as per applicable law',
+
+    // 7) Limitation of Liability
     'terms.liability.title': '7. Limitation of Liability',
-    'terms.liability.content.1': 'Refúgio no Mar is not responsible for:',
+    'terms.liability.content.1': 'Refúgio no Mar is not liable for:',
     'terms.liability.content.2': '• Loss, theft or damage of personal belongings',
-    'terms.liability.content.3': '• Injuries arising from use of facilities',
+    'terms.liability.content.3': '• Injuries arising from the use of facilities',
     'terms.liability.content.4': '• Interruptions of public services (electricity, water, internet)',
     'terms.liability.content.5': '• Adverse weather conditions',
     'terms.liability.content.6': '• Force majeure circumstances',
-    'terms.liability.content.7': '',
+    'terms.liability.content.7': '\u200B',
     'terms.liability.content.8': 'Recommendations:',
     'terms.liability.content.9': '• Travel insurance with accommodation coverage',
-    'terms.liability.content.10': '• Personal security and safety of your belongings',
-    
-    // Law and Jurisdiction
+    'terms.liability.content.10': '• Safeguard your personal security and belongings',
+
+    // 8) Applicable Law and Jurisdiction
     'terms.law.title': '8. Applicable Law and Jurisdiction',
-    'terms.law.content.1': 'These terms are governed by Portuguese legislation.',
-    'terms.law.content.2': 'Any dispute will be resolved in Portuguese courts.',
-    'terms.law.content.3': 'We will always try to resolve disputes amicably.',
-    'terms.law.content.4': 'Contact us first in case of any problem.',
-    'terms.law.content.5': '',
+    'terms.law.content.1': 'These terms are governed by Portuguese law.',
+    'terms.law.content.2': 'Any disputes will be resolved in the Portuguese courts.',
+    'terms.law.content.3': 'We will always seek to resolve disputes amicably.',
+    'terms.law.content.4': 'Please contact us first in case of any issue.',
+    'terms.law.content.5': '\u200B',
     'terms.law.content.6': 'Consumer Rights:',
     'terms.law.content.7': '• Full respect for European consumer rights',
-    'terms.law.content.8': '• Complaints Portal available for complaints',
-    'terms.law.content.9': '• Electronic complaints book accessible',
-    
-    // Contact
-    // Force Majeure Section
+    'terms.law.content.8': '• Access to the “Portal da Queixa” for complaints',
+    'terms.law.content.9': '• Electronic complaints book available',
+
+
+    // 9) Force Majeure
     'terms.force_majeure.title': '9. Force Majeure',
-    'terms.force_majeure.intro': 'We are not responsible for breaches due to:',
+    'terms.force_majeure.intro': 'We are not responsible for non-performance due to:',
     'terms.force_majeure.natural': '• Natural disasters, earthquakes, floods',
     'terms.force_majeure.pandemic': '• Pandemics, epidemics, health restrictions',
     'terms.force_majeure.government': '• Government acts, war, terrorism',
     'terms.force_majeure.infrastructure': '• Infrastructure failures beyond our control',
-    'terms.force_majeure.remedy': 'In these situations, we will try to find alternative solutions.',
+    'terms.force_majeure.remedy': 'In such situations, we will seek alternative solutions.',
 
-    // Intellectual Property Section
+    // 10) Intellectual Property
     'terms.intellectual.title': '10. Intellectual Property',
-    'terms.intellectual.ownership': 'All website content is property of Refúgio no Mar.',
-    'terms.intellectual.images': 'Photographs may not be used without prior authorization.',
+    'terms.intellectual.ownership': 'All website content is the property of Refúgio no Mar.',
+    'terms.intellectual.images': 'Photographs may not be used without prior authorisation.',
     'terms.intellectual.trademark': 'The name "Refúgio no Mar" is a registered trademark.',
-    'terms.intellectual.guest_content': 'By sharing photos/reviews, you grant us license to use for marketing.',
+    'terms.intellectual.guest_content': 'By sharing photos/reviews, you grant us a licence to use them for marketing purposes.',
 
-    // Modifications Section
+    // 11) Changes to Terms
     'terms.modifications.title': '11. Changes to Terms',
-    'terms.modifications.intro': 'These terms may be changed periodically:',
+    'terms.modifications.intro': 'These terms may be updated periodically:',
     'terms.modifications.notification': '• Significant changes will be communicated by email',
-    'terms.modifications.effective': '• Changes take effect 30 days after publication',
+    'terms.modifications.effective': '• They take effect 30 days after publication',
     'terms.modifications.disagreement': '• If you disagree, you may cancel future bookings',
-    'terms.modifications.website': '• Current version available on website',
+    'terms.modifications.website': '• The current version is available on the website',
 
-    // Severability Section
+    // 12) Severability
     'terms.severability.title': '12. Severability',
-    'terms.severability.invalid': 'If any clause is deemed invalid, the others remain in force.',
+    'terms.severability.invalid': 'If any clause is deemed invalid, the remaining ones remain in force.',
     'terms.severability.replacement': 'Invalid clauses will be replaced by equivalent legal provisions.',
-    'terms.severability.interpretation': 'Interpretation always in the most favorable sense to the consumer.',
+    'terms.severability.interpretation': 'Interpretation will be made in the manner most favourable to the consumer.',
 
-    // Emergency Procedures Section
-    'terms.emergency.title': '13. Emergency Procedures',
+    // 13) Personal Data Protection
+    'terms.data_protection.title': '13. Personal Data Protection',
+    'terms.data_protection.content.1': 'We process your personal data in accordance with the GDPR and applicable national legislation.',
+    'terms.data_protection.content.2': 'Data collected is used exclusively for booking management and legal obligations.',
+    'terms.data_protection.content.3': 'You have the right to access, rectify and erase your data, under the law.',
+    'terms.data_protection.content.4': 'Contact us to exercise your data protection rights.',
+
+    // 14) Consumer Rights
+    'terms.consumer.title': '14. Consumer Rights',
+    'terms.consumer.portuguese_law': 'As a Portuguese/EU consumer, you have rights protected by law:',
+    'terms.consumer.complaints': '• Complaints Book available (physical and electronic)',
+    'terms.consumer.authorities': '• You may resort to consumer dispute resolution entities',
+    'terms.consumer.mediation': '• Algarve Consumer Disputes Arbitration Centre',
+    'terms.consumer.portal': '• Consumer Portal: www.consumidor.gov.pt',
+    'terms.consumer.protection': 'Nothing in these terms affects your statutory rights.',
+
+    // 15) Emergency Procedures
+    'terms.emergency.title': '15. Emergency Procedures',
     'terms.emergency.contact': 'In case of emergency, contact immediately:',
     'terms.emergency.services': '• Emergencies: 112 (European emergency number)',
     'terms.emergency.property': '• Property issues: +41 76 583 0782',
     'terms.emergency.medical': '• Nearest hospital: Portimão Hospital (15 min)',
     'terms.emergency.location': '• Exact address: Rua da Sardinha, 3, 8365-101 Armação de Pêra',
+
 
     // Contact Section
     'terms.contact.title': 'Contact Us',
@@ -1953,41 +1850,6 @@ const translations = {
     'description.stats.bedrooms': 'bedrooms',
     'description.stats.guests': 'guests',
     'description.stats.area': 'total area',
-
-    // Terms and Conditions - Additional Sections
-    'terms.force_majeure.title': '14. Force Majeure',
-    'terms.force_majeure.definition': 'We consider force majeure unforeseeable and unavoidable events:',
-    'terms.force_majeure.events': '• Pandemics, natural disasters, strikes, war',
-    'terms.force_majeure.restrictions': '• Government travel or accommodation restrictions',
-    'terms.force_majeure.utilities': '• Prolonged essential service failures',
-    'terms.force_majeure.consequences': 'In case of force majeure: cancellation without penalties for both parties.',
-    'terms.force_majeure.assistance': 'We assist in reorganization or cancellation with full refund.',
-
-    // Intellectual Property Section
-    'terms.intellectual.title': '15. Intellectual Property',
-    'terms.intellectual.ownership': 'All website and property content belongs to Refúgio no Mar:',
-    'terms.intellectual.photos': '• Photographs, texts, logos and registered trademark',
-    'terms.intellectual.prohibited': '• Unauthorized commercial use is prohibited',
-    'terms.intellectual.guest_photos': '• You may photograph during your stay for personal use',
-    'terms.intellectual.social_media': '• Social media sharing is welcome (mention us!)',
-
-    // Personal Data Protection
-    'terms.data_protection.title': '16. Personal Data Protection',
-    'terms.data_protection.gdpr': 'We strictly comply with GDPR (General Data Protection Regulation).',
-    'terms.data_protection.processing': 'Your data is processed only for:',
-    'terms.data_protection.booking': '• Booking management and service provision',
-    'terms.data_protection.legal': '• Legal compliance (Tax Authority, Tourism Portugal)',
-    'terms.data_protection.communication': '• Stay-related communications',
-    'terms.data_protection.rights': 'Check our Privacy Policy to know your rights.',
-
-    // Consumer Rights Section
-    'terms.consumer.title': '17. Consumer Rights',
-    'terms.consumer.portuguese_law': 'As a Portuguese/European consumer, you have rights protected by law:',
-    'terms.consumer.complaints': '• Complaints book available (physical and electronic)',
-    'terms.consumer.authorities': '• You can resort to dispute resolution entities',
-    'terms.consumer.mediation': '• Algarve Consumer Conflict Arbitration Center',
-    'terms.consumer.portal': '• Consumer Portal: www.consumidor.gov.pt',
-    'terms.consumer.protection': 'Nothing in these terms prejudices your legal rights.'
   },
   es: {
     'nav.home': 'Inicio',
@@ -2632,7 +2494,7 @@ const translations = {
     'description.stats.guests': 'huéspedes',
     'description.stats.area': 'área total',
     
-    // Terms and Conditions Page
+    // Terms and Conditions Page - ES
     'terms.back_button': 'Volver al inicio',
     'terms.title': 'Términos y Condiciones',
     'terms.subtitle': 'Conoce los términos que rigen tu estancia en Refúgio no Mar. Transparentes, justos y en cumplimiento con la legislación portuguesa.',
@@ -2640,106 +2502,164 @@ const translations = {
     'terms.last_updated': 'Última actualización: 26 de agosto 2025',
     'terms.intro': 'Bienvenido a Refúgio no Mar. Estos términos y condiciones establecen las reglas para tu estancia en nuestro apartamento de lujo en Armação de Pêra. Lee atentamente antes de realizar tu reserva.',
     
-    // General Information
-    'terms.general.title': '1. Información General',
-    'terms.general.content.1': 'Estos términos y condiciones rigen el uso de los servicios de alojamiento ofrecidos por Refúgio no Mar.',
+    // 1) Información general
+    'terms.general.title': '1. Información general',
+    'terms.general.content.1': 'Estos términos y condiciones regulan el uso de los servicios de alojamiento ofrecidos por Refúgio no Mar.',
     'terms.general.content.2': 'Propiedad ubicada en Rua da Sardinha, 3, 8365-101 Armação de Pêra, Portugal.',
-    'terms.general.content.3': 'RNAL nº 163178/AL - Licenciado por Turismo de Portugal.',
-    'terms.general.content.4': 'Al realizar una reserva, aceptas estos términos en su totalidad.',
-    
-    // Bookings and Payments
-    'terms.booking.title': '2. Reservas y Pagos',
-    'terms.booking.content.1': 'Confirmación de Reserva:',
+    'terms.general.content.3': 'RNAL nº 163178/AL – Licenciado por Turismo de Portugal.',
+    'terms.general.content.4': 'Al realizar una reserva, aceptas íntegramente estos términos.',
+
+    // 2) Reservas y pagos
+    'terms.booking.title': '2. Reservas y pagos',
+    'terms.booking.content.1': 'Confirmación de la reserva:',
     'terms.booking.content.2': '• Todas las reservas están sujetas a confirmación y disponibilidad',
-    'terms.booking.content.3': '• La reserva solo se confirma después del pago completo',
-    'terms.booking.content.4': '• Recibirás confirmación por email con todos los detalles',
-    'terms.booking.content.5': '',
-    'terms.booking.content.6': 'Modalidades de Pago:',
-    'terms.booking.content.7': '• Pago por transferencia bancaria o PIX',
-    'terms.booking.content.8': '• Pago total requerido antes del check-in',
-    'terms.booking.content.9': '• No se aceptan pagos en efectivo en el local',
-    'terms.booking.content.10': '• Todos los precios incluyen IVA',
-    
-    // Check-in and Check-out
-    'terms.checkin.title': '3. Check-in y Check-out',
-    'terms.checkin.content.1': 'Horarios Estándar:',
-    'terms.checkin.content.2': '• Check-in: 16:00 - 22:00',
-    'terms.checkin.content.3': '• Check-out: hasta las 11:00',
-    'terms.checkin.content.4': '• Horarios especiales pueden acordarse con anticipación',
-    'terms.checkin.content.5': '',
-    'terms.checkin.content.6': 'Proceso de Check-in:',
-    'terms.checkin.content.7': 'Capacidad e Huéspedes:',
-    'terms.checkin.content.8': '• Capacidad máxima: 2 huéspedes',
-    'terms.checkin.content.9': '• Todos los huéspedes deben estar registrados',
-    'terms.checkin.content.10': '• Se requiere identificación válida',
-    'terms.checkin.content.11': '• Huéspedes adicionales no autorizados pueden resultar en terminación inmediata',
-    
-    // Property Use
-    'terms.property.title': '4. Uso de la Propiedad',
-    'terms.property.content.1': 'Reglas Generales:',
-    'terms.property.content.2': '• Prohibido fumar en el interior',
-    'terms.property.content.3': '• No se permiten mascotas',
-    'terms.property.content.4': '• Prohibidas las fiestas y eventos',
-    'terms.property.content.5': '• Respetar las horas de silencio (22:00 - 08:00)',
-    'terms.property.content.6': '',
-    'terms.property.content.7': 'Uso de las Instalaciones:',
-    'terms.property.content.8': '• Piscina disponible de temporada (abril - octubre)',
-    'terms.property.content.9': '• Uso compartido y responsable de áreas comunes',
-    'terms.property.content.10': '• Mantenimiento de limpieza durante la estancia',
-    'terms.property.content.11': '• Comunicar inmediatamente cualquier daño o problema',
-    
-    // Guest Responsibilities
-    'terms.responsibilities.title': '5. Responsabilidades del Huésped',
-    'terms.responsibilities.content.1': 'Cuidado de la Propiedad:',
-    'terms.responsibilities.content.2': '• Tratar toda la propiedad con cuidado y respeto',
-    'terms.responsibilities.content.3': '• Reportar inmediatamente cualquier daño',
-    'terms.responsibilities.content.4': '• Usar electrodomésticos de acuerdo con las instrucciones',
-    'terms.responsibilities.content.5': '• Mantener la limpieza básica durante la estancia',
-    'terms.responsibilities.content.6': '• Respetar las normas del condominio',
-    'terms.responsibilities.content.7': '• Los costos de reparación por daños serán cobrados al huésped',
-    
-    // Cancellation Policy
-    'terms.cancellation.title': '6. Política de Cancelación',
-    'terms.cancellation.content.1': 'Cancelación Gratuita:',
-    'terms.cancellation.content.2': '• Hasta 30 días antes: reembolso del 100%',
-    'terms.cancellation.content.3': '• 15-29 días antes: reembolso del 50%',
-    'terms.cancellation.content.4': '• Menos de 15 días: sin reembolso',
-    'terms.cancellation.content.5': '',
-    'terms.cancellation.content.6': 'Circunstancias Especiales:',
-    'terms.cancellation.content.7': '• Condiciones climáticas extremas evaluadas caso por caso',
-    'terms.cancellation.content.8': '• Emergencias médicas con comprobante evaluadas individualmente',
-    'terms.cancellation.content.9': '• Cancelaciones por nuestra parte: reembolso del 100%',
-    'terms.cancellation.content.10': '• Proceso de reembolso: hasta 14 días hábiles',
-    
-    // Liability
-    'terms.liability.title': '7. Responsabilidad y Seguros',
-    'terms.liability.content.1': 'Limitación de Responsabilidad:',
-    'terms.liability.content.2': '• El huésped es responsable por daños causados por negligencia',
-    'terms.liability.content.3': '• Refúgio no Mar no se responsabiliza por objetos perdidos o robados',
-    'terms.liability.content.4': '• No nos responsabilizamos por accidentes en las instalaciones',
-    'terms.liability.content.5': '• Uso de la piscina y áreas comunes bajo propia responsabilidad',
-    'terms.liability.content.6': '',
-    'terms.liability.content.7': 'Seguros:',
+    'terms.booking.content.3': '• La reserva solo queda confirmada tras el pago total',
+    'terms.booking.content.4': '• Recibirás una confirmación por correo electrónico con todos los detalles',
+    'terms.booking.content.5': '\u200B',
+    'terms.booking.content.6': 'Pagos:',
+    'terms.booking.content.7': '• El pago total debe realizarse antes de la llegada',
+    'terms.booking.content.8': '• Transferencia bancaria, MB Way o tarjeta de crédito',
+    'terms.booking.content.9': '• Todos los precios incluyen IVA cuando corresponda',
+    'terms.booking.content.10': '• Precios en euros (€) – moneda oficial',
+
+    // 3) Check-in y check-out
+    'terms.checkin.title': '3. Check-in y check-out',
+    'terms.checkin.content.1': 'Horarios estándar:',
+    'terms.checkin.content.2': '• Check-in: a partir de las 16:00',
+    'terms.checkin.content.3': '• Check-out: hasta las 10:00',
+    'terms.checkin.content.4': '• Check-in tardío disponible previa coordinación',
+    'terms.checkin.content.5': '• Salida anticipada posible previa solicitud',
+    'terms.checkin.content.6': '\u200B',
+    'terms.checkin.content.7': 'Capacidad y huéspedes:',
+    'terms.checkin.content.8': '• Máximo de 4 huéspedes por reserva',
+    'terms.checkin.content.9': '• Se admiten niños de todas las edades',
+    'terms.checkin.content.10': '• Cuna disponible por €25 (bajo solicitud)',
+    'terms.checkin.content.11': '• No se permiten huéspedes adicionales no autorizados',
+
+    // 4) Reglas de la propiedad
+    'terms.property.title': '4. Reglas de la propiedad',
+    'terms.property.content.1': 'Comportamiento y conducta:',
+    'terms.property.content.2': '• Prohibido fumar en todas las áreas interiores',
+    'terms.property.content.3': '• No se permiten fiestas ni eventos ruidosos',
+    'terms.property.content.4': '• Horario de silencio: 22:00–08:00',
+    'terms.property.content.5': '• No se admiten mascotas',
+    'terms.property.content.6': '\u200B',
+    'terms.property.content.7': 'Uso de las instalaciones:',
+    'terms.property.content.8': '• Piscina disponible por temporada (mayo a octubre)',
+    'terms.property.content.9': '• Uso bajo tu propia responsabilidad',
+    'terms.property.content.10': '• Mantener la propiedad limpia y ordenada',
+    'terms.property.content.11': '• Respetar a los vecinos y propiedades colindantes',
+
+    // 5) Responsabilidades del huésped
+    'terms.responsibilities.title': '5. Responsabilidades del huésped',
+    'terms.responsibilities.content.1': 'Durante tu estancia, te comprometes a:',
+    'terms.responsibilities.content.2': '• Tratar la propiedad con cuidado y respeto',
+    'terms.responsibilities.content.3': '• Informar de inmediato cualquier daño o incidencia',
+    'terms.responsibilities.content.4': '• Cumplir con las normas locales y la legislación nacional',
+    'terms.responsibilities.content.5': '• No perturbar a otros huéspedes ni a los vecinos',
+    'terms.responsibilities.content.6': '• Dejar la propiedad en condiciones adecuadas',
+    'terms.responsibilities.content.7': '• No realizar actividades ilegales en la propiedad',
+
+    // 6) Cancelaciones y reembolsos
+    'terms.cancellation.title': '6. Cancelaciones y reembolsos',
+    'terms.cancellation.content.1': 'Política de cancelación:',
+    'terms.cancellation.content.2': '• Cancelación hasta 30 días: reembolso total',
+    'terms.cancellation.content.3': '• Cancelación entre 15–29 días: reembolso del 50%',
+    'terms.cancellation.content.4': '• Cancelación con menos de 15 días: sin reembolso',
+    'terms.cancellation.content.5': '• No show: sin reembolso',
+    'terms.cancellation.content.6': '\u200B',
+    'terms.cancellation.content.7': 'Cancelaciones por nuestra parte:',
+    'terms.cancellation.content.8': '• Reembolso íntegro si la cancelación es de nuestra responsabilidad',
+    'terms.cancellation.content.9': '• Apoyo para encontrar alojamiento alternativo',
+    'terms.cancellation.content.10': '• Posible compensación adicional según la legislación aplicable',
+
+    // 7) Limitación de responsabilidad
+    'terms.liability.title': '7. Limitación de responsabilidad',
+    'terms.liability.content.1': 'Refúgio no Mar no se hace responsable de:',
+    'terms.liability.content.2': '• Pérdida, robo o daño de pertenencias personales',
+    'terms.liability.content.3': '• Lesiones derivadas del uso de las instalaciones',
+    'terms.liability.content.4': '• Interrupciones de servicios públicos (electricidad, agua, internet)',
+    'terms.liability.content.5': '• Condiciones meteorológicas adversas',
+    'terms.liability.content.6': '• Circunstancias de fuerza mayor',
+    'terms.liability.content.7': '\u200B',
     'terms.liability.content.8': 'Recomendaciones:',
-    'terms.liability.content.9': '• Se recomienda encarecidamente el seguro de viaje',
-    'terms.liability.content.10': '• Verificar cobertura médica durante la estancia',
-    
-    // Applicable Law
-    'terms.law.title': '8. Ley Aplicable y Resolución de Conflictos',
-    'terms.law.content.1': 'Jurisdicción:',
-    'terms.law.content.2': '• Estos términos se rigen por la ley portuguesa',
-    'terms.law.content.3': '• Cualquier disputa será resuelta por los tribunales portugueses',
-    'terms.law.content.4': '• Libro de Reclamaciones disponible según la ley portuguesa',
-    'terms.law.content.5': '',
-    'terms.law.content.6': 'Resolución de Conflictos:',
-    'terms.law.content.7': '• Preferimos resolver cuestiones mediante diálogo directo',
-    'terms.law.content.8': '• Mediación antes de procedimientos legales',
-    'terms.law.content.9': '• Comprometidos con la resolución justa y rápida',
+    'terms.liability.content.9': '• Seguro de viaje con cobertura de alojamiento',
+    'terms.liability.content.10': '• Proteger tu seguridad personal y tus pertenencias',
+
+    // 8) Ley aplicable y jurisdicción
+    'terms.law.title': '8. Ley aplicable y jurisdicción',
+    'terms.law.content.1': 'Estos términos se rigen por la legislación portuguesa.',
+    'terms.law.content.2': 'Cualquier disputa se resolverá en los tribunales portugueses.',
+    'terms.law.content.3': 'Siempre intentaremos resolver los conflictos de forma amistosa.',
+    'terms.law.content.4': 'Por favor, contáctanos primero en caso de cualquier incidencia.',
+    'terms.law.content.5': '\u200B',
+    'terms.law.content.6': 'Derechos del consumidor:',
+    'terms.law.content.7': '• Pleno respeto a los derechos del consumidor europeo',
+    'terms.law.content.8': '• Portal da Queixa disponible para reclamaciones',
+    'terms.law.content.9': '• Libro de reclamaciones electrónico disponible',
+
+
+    // 9) Fuerza mayor
+    'terms.force_majeure.title': '9. Fuerza mayor',
+    'terms.force_majeure.intro': 'No somos responsables del incumplimiento debido a:',
+    'terms.force_majeure.natural': '• Desastres naturales, terremotos, inundaciones',
+    'terms.force_majeure.pandemic': '• Pandemias, epidemias, restricciones sanitarias',
+    'terms.force_majeure.government': '• Actos gubernamentales, guerra, terrorismo',
+    'terms.force_majeure.infrastructure': '• Fallos de infraestructura fuera de nuestro control',
+    'terms.force_majeure.remedy': 'En tales situaciones, buscaremos soluciones alternativas.',
+
+    // 10) Propiedad intelectual
+    'terms.intellectual.title': '10. Propiedad intelectual',
+    'terms.intellectual.ownership': 'Todo el contenido del sitio web es propiedad de Refúgio no Mar.',
+    'terms.intellectual.images': 'Las fotografías no pueden utilizarse sin autorización previa.',
+    'terms.intellectual.trademark': 'El nombre "Refúgio no Mar" es una marca registrada.',
+    'terms.intellectual.guest_content': 'Al compartir fotos/opiniones, nos concedes una licencia para su uso con fines de marketing.',
+
+    // 11) Modificaciones de los términos
+    'terms.modifications.title': '11. Modificaciones de los términos',
+    'terms.modifications.intro': 'Estos términos pueden actualizarse periódicamente:',
+    'terms.modifications.notification': '• Los cambios significativos se comunicarán por correo electrónico',
+    'terms.modifications.effective': '• Entrarán en vigor 30 días después de su publicación',
+    'terms.modifications.disagreement': '• Si no estás de acuerdo, puedes cancelar reservas futuras',
+    'terms.modifications.website': '• La versión vigente está disponible en el sitio web',
+
+    // 12) Divisibilidad
+    'terms.severability.title': '12. Divisibilidad',
+    'terms.severability.invalid': 'Si alguna cláusula se considera inválida, las demás seguirán siendo válidas.',
+    'terms.severability.replacement': 'Las cláusulas inválidas serán sustituidas por disposiciones legales equivalentes.',
+    'terms.severability.interpretation': 'La interpretación se hará en el sentido más favorable al consumidor.',
+
+    // 13) Protección de datos personales
+    'terms.data_protection.title': '13. Protección de datos personales',
+    'terms.data_protection.content.1': 'Tratamos tus datos personales conforme al RGPD y a la legislación nacional aplicable.',
+    'terms.data_protection.content.2': 'Los datos recopilados se emplean exclusivamente para la gestión de la reserva y obligaciones legales.',
+    'terms.data_protection.content.3': 'Tienes derecho de acceso, rectificación y supresión de tus datos, según la ley.',
+    'terms.data_protection.content.4': 'Contáctanos para ejercer tus derechos de protección de datos.',
+
+    // 14) Derechos del consumidor
+    'terms.consumer.title': '14. Derechos del consumidor',
+    'terms.consumer.portuguese_law': 'Como consumidor portugués/europeo, tus derechos están protegidos por la ley:',
+    'terms.consumer.complaints': '• Libro de Reclamaciones disponible (físico y electrónico)',
+    'terms.consumer.authorities': '• Puedes recurrir a entidades de resolución de litigios de consumo',
+    'terms.consumer.mediation': '• Centro de Arbitraje de Conflictos de Consumo del Algarve',
+    'terms.consumer.portal': '• Portal del Consumidor: www.consumidor.gov.pt',
+    'terms.consumer.protection': 'Nada de lo aquí dispuesto afecta tus derechos legales.',
+
+    // 15) Procedimientos de emergencia
+    'terms.emergency.title': '15. Procedimientos de emergencia',
+    'terms.emergency.contact': 'En caso de emergencia, contacta inmediatamente:',
+    'terms.emergency.services': '• Emergencias: 112 (número europeo de emergencia)',
+    'terms.emergency.property': '• Incidencias en la propiedad: +41 76 583 0782',
+    'terms.emergency.medical': '• Hospital más cercano: Hospital de Portimão (15 min)',
+    'terms.emergency.location': '• Dirección exacta: Rua da Sardinha, 3, 8365-101 Armação de Pêra',
     
     // Contact
-    'terms.contact.title': '9. Contacto',
-    'terms.contact.description': 'Para preguntas sobre estos términos o tu reserva:',
+    'terms.contact.title': 'Contáctenos',
+    'terms.contact.description': '¿Preguntas sobre estos términos y condiciones? Estamos aquí para ayudar:',
+    'terms.contact.booking': 'Para reservas y preguntas generales: refugionomar2025@gmail.com',
+    'terms.contact.whatsapp': 'WhatsApp (respuestas rápidas): +41 76 583 0782',
     'terms.contact.note': 'Estamos disponibles para aclarar cualquier duda sobre tu reserva.',
+    'terms.contact.hours': 'Horario de atención: 9:00-22:00 (todos los días)',
 
     // Privacy Policy - GDPR Sections in Spanish
     'privacy.legal_basis.title': 'Base Legal para el Procesamiento',
@@ -2787,38 +2707,6 @@ const translations = {
     'privacy.updates.website': '• La versión actual está siempre disponible en nuestro sitio web',
     'privacy.updates.date': '• La fecha de última actualización está claramente indicada',
     'privacy.updates.continue': 'El uso continuado de los servicios después de cambios constituye aceptación.',
-
-    // Terms and Conditions - Additional Sections in Spanish
-    'terms.force_majeure.title': '14. Fuerza Mayor',
-    'terms.force_majeure.definition': 'Consideramos fuerza mayor eventos imprevisibles e inevitables:',
-    'terms.force_majeure.events': '• Pandemias, desastres naturales, huelgas, guerra',
-    'terms.force_majeure.restrictions': '• Restricciones gubernamentales de viaje o alojamiento',
-    'terms.force_majeure.utilities': '• Fallos prolongados de servicios esenciales',
-    'terms.force_majeure.consequences': 'En caso de fuerza mayor: cancelación sin penalizaciones para ambas partes.',
-    'terms.force_majeure.assistance': 'Ayudamos en la reorganización o cancelación con reembolso integral.',
-
-    'terms.intellectual.title': '15. Propiedad Intelectual',
-    'terms.intellectual.ownership': 'Todo el contenido del sitio web y la propiedad pertenece a Refúgio no Mar:',
-    'terms.intellectual.photos': '• Fotografías, textos, logos y marca registrada',
-    'terms.intellectual.prohibited': '• El uso comercial no autorizado está prohibido',
-    'terms.intellectual.guest_photos': '• Puedes fotografiar durante tu estancia para uso personal',
-    'terms.intellectual.social_media': '• ¡Compartir en redes sociales es bienvenido (menciónanos)!',
-
-    'terms.data_protection.title': '16. Protección de Datos Personales',
-    'terms.data_protection.gdpr': 'Cumplimos rigurosamente con el GDPR (Reglamento General de Protección de Datos).',
-    'terms.data_protection.processing': 'Tus datos se procesan solo para:',
-    'terms.data_protection.booking': '• Gestión de reservas y prestación de servicios',
-    'terms.data_protection.legal': '• Cumplimiento de obligaciones legales (Hacienda, Turismo Portugal)',
-    'terms.data_protection.communication': '• Comunicaciones relacionadas con la estancia',
-    'terms.data_protection.rights': 'Consulta nuestra Política de Privacidad para conocer tus derechos.',
-
-    'terms.consumer.title': '17. Derechos del Consumidor',
-    'terms.consumer.portuguese_law': 'Como consumidor portugués/europeo, tienes derechos protegidos por ley:',
-    'terms.consumer.complaints': '• Libro de reclamaciones disponible (físico y electrónico)',
-    'terms.consumer.authorities': '• Puedes recurrir a entidades de resolución de disputas',
-    'terms.consumer.mediation': '• Centro de Arbitraje de Conflictos de Consumo del Algarve',
-    'terms.consumer.portal': '• Portal del Consumidor: www.consumidor.gov.pt',
-    'terms.consumer.protection': 'Nada en estos términos perjudica tus derechos legales.'
   },
   fr: {
     'nav.home': 'Accueil',
@@ -3463,7 +3351,7 @@ const translations = {
     'description.stats.guests': 'invités',
     'description.stats.area': 'superficie totale',
     
-    // Terms and Conditions Page
+    // Terms and Conditions Page - FR
     'terms.back_button': 'Retour à l\'accueil',
     'terms.title': 'Conditions Générales',
     'terms.subtitle': 'Découvrez les conditions qui régissent votre séjour à Refúgio no Mar. Transparentes, équitables et conformes à la législation portugaise.',
@@ -3471,106 +3359,165 @@ const translations = {
     'terms.last_updated': 'Dernière mise à jour : 26 août 2025',
     'terms.intro': 'Bienvenue au Refúgio no Mar. Ces conditions générales établissent les règles de votre séjour dans notre appartement de luxe à Armação de Pêra. Veuillez lire attentivement avant de faire votre réservation.',
     
-    // General Information
-    'terms.general.title': '1. Informations Générales',
-    'terms.general.content.1': 'Ces conditions générales régissent votre utilisation des services d\'hébergement offerts par Refúgio no Mar.',
-    'terms.general.content.2': 'Propriété située à Rua da Sardinha, 3, 8365-101 Armação de Pêra, Portugal.',
-    'terms.general.content.3': 'RNAL nº 163178/AL - Agréé par Turismo de Portugal.',
-    'terms.general.content.4': 'En effectuant une réservation, vous acceptez ces conditions dans leur intégralité.',
-    
-    // Bookings and Payments
-    'terms.booking.title': '2. Réservations et Paiements',
-    'terms.booking.content.1': 'Confirmation de Réservation :',
-    'terms.booking.content.2': '• Toutes les réservations sont soumises à confirmation et disponibilité',
-    'terms.booking.content.3': '• La réservation n\'est confirmée qu\'après paiement intégral',
+    // 1) Informations générales
+    'terms.general.title': '1. Informations générales',
+    'terms.general.content.1': 'Ces conditions générales régissent l’utilisation des services d’hébergement proposés par Refúgio no Mar.',
+    'terms.general.content.2': 'Propriété située : Rua da Sardinha, 3, 8365-101 Armação de Pêra, Portugal.',
+    'terms.general.content.3': 'RNAL nº 163178/AL – Agréé par Turismo de Portugal.',
+    'terms.general.content.4': 'En effectuant une réservation, vous acceptez l’intégralité de ces conditions.',
+
+    // 2) Réservations et paiements
+    'terms.booking.title': '2. Réservations et paiements',
+    'terms.booking.content.1': 'Confirmation de réservation :',
+    'terms.booking.content.2': '• Toutes les réservations sont soumises à confirmation et à disponibilité',
+    'terms.booking.content.3': '• La réservation n’est confirmée qu’après paiement intégral',
     'terms.booking.content.4': '• Vous recevrez une confirmation par email avec tous les détails',
-    'terms.booking.content.5': '',
-    'terms.booking.content.6': 'Modalités de Paiement :',
-    'terms.booking.content.7': '• Paiement par virement bancaire ou PIX',
-    'terms.booking.content.8': '• Paiement total requis avant l\'enregistrement',
-    'terms.booking.content.9': '• Aucun paiement en espèces accepté sur place',
-    'terms.booking.content.10': '• Tous les prix incluent la TVA',
-    
-    // Check-in and Check-out
-    'terms.checkin.title': '3. Enregistrement et Départ',
-    'terms.checkin.content.1': 'Horaires Standard :',
-    'terms.checkin.content.2': '• Enregistrement : 16h00 - 22h00',
-    'terms.checkin.content.3': '• Départ : jusqu\'à 11h00',
-    'terms.checkin.content.4': '• Horaires spéciaux peuvent être convenus à l\'avance',
-    'terms.checkin.content.5': '',
-    'terms.checkin.content.6': 'Processus d\'Enregistrement :',
-    'terms.checkin.content.7': 'Capacité et Invités :',
-    'terms.checkin.content.8': '• Capacité maximale : 2 invités',
-    'terms.checkin.content.9': '• Tous les invités doivent être enregistrés',
-    'terms.checkin.content.10': '• Pièce d\'identité valide requise',
-    'terms.checkin.content.11': '• Invités supplémentaires non autorisés peuvent entraîner une résiliation immédiate',
-    
-    // Property Use
-    'terms.property.title': '4. Utilisation de la Propriété',
-    'terms.property.content.1': 'Règles Générales :',
-    'terms.property.content.2': '• Interdiction de fumer à l\'intérieur',
-    'terms.property.content.3': '• Animaux domestiques non autorisés',
-    'terms.property.content.4': '• Fêtes et événements interdits',
-    'terms.property.content.5': '• Respecter les heures de silence (22h00 - 08h00)',
-    'terms.property.content.6': '',
-    'terms.property.content.7': 'Utilisation des Installations :',
-    'terms.property.content.8': '• Piscine disponible en saison (avril - octobre)',
-    'terms.property.content.9': '• Utilisation partagée et responsable des espaces communs',
-    'terms.property.content.10': '• Maintenir la propreté pendant le séjour',
-    'terms.property.content.11': '• Signaler immédiatement tout dommage ou problème',
-    
-    // Guest Responsibilities
-    'terms.responsibilities.title': '5. Responsabilités de l\'Invité',
-    'terms.responsibilities.content.1': 'Soin de la Propriété :',
-    'terms.responsibilities.content.2': '• Traiter toute la propriété avec soin et respect',
-    'terms.responsibilities.content.3': '• Signaler immédiatement tout dommage',
-    'terms.responsibilities.content.4': '• Utiliser les appareils électroménagers selon les instructions',
-    'terms.responsibilities.content.5': '• Maintenir la propreté de base pendant le séjour',
-    'terms.responsibilities.content.6': '• Respecter les règles de la copropriété',
-    'terms.responsibilities.content.7': '• Les coûts de réparation des dommages seront facturés à l\'invité',
-    
-    // Cancellation Policy
-    'terms.cancellation.title': '6. Politique d\'Annulation',
-    'terms.cancellation.content.1': 'Annulation Gratuite :',
-    'terms.cancellation.content.2': '• Jusqu\'à 30 jours avant : remboursement à 100%',
-    'terms.cancellation.content.3': '• 15-29 jours avant : remboursement à 50%',
-    'terms.cancellation.content.4': '• Moins de 15 jours : aucun remboursement',
-    'terms.cancellation.content.5': '',
-    'terms.cancellation.content.6': 'Circonstances Spéciales :',
-    'terms.cancellation.content.7': '• Conditions météorologiques extrêmes évaluées au cas par cas',
-    'terms.cancellation.content.8': '• Urgences médicales avec justificatif évaluées individuellement',
-    'terms.cancellation.content.9': '• Annulations de notre part : remboursement à 100%',
-    'terms.cancellation.content.10': '• Processus de remboursement : jusqu\'à 14 jours ouvrables',
-    
-    // Liability
-    'terms.liability.title': '7. Responsabilité et Assurances',
-    'terms.liability.content.1': 'Limitation de Responsabilité :',
-    'terms.liability.content.2': '• L\'invité est responsable des dommages causés par négligence',
-    'terms.liability.content.3': '• Refúgio no Mar n\'est pas responsable des objets perdus ou volés',
-    'terms.liability.content.4': '• Nous ne sommes pas responsables des accidents dans les installations',
-    'terms.liability.content.5': '• Utilisation de la piscine et des espaces communs à vos risques et périls',
-    'terms.liability.content.6': '',
-    'terms.liability.content.7': 'Assurances :',
+    'terms.booking.content.5': '\u200B',
+    'terms.booking.content.6': 'Paiements :',
+    'terms.booking.content.7': '• Le paiement total est exigé avant l’arrivée',
+    'terms.booking.content.8': '• Virement bancaire, MB Way ou carte de crédit',
+    'terms.booking.content.9': '• Tous les prix incluent la TVA lorsqu’applicable',
+    'terms.booking.content.10': '• Prix en euros (€) – devise officielle',
+
+    // 3) Enregistrement et départ
+    'terms.checkin.title': '3. Enregistrement et départ',
+    'terms.checkin.content.1': 'Horaires standards :',
+    'terms.checkin.content.2': '• Enregistrement : à partir de 16:00',
+    'terms.checkin.content.3': '• Départ : jusqu’à 10:00',
+    'terms.checkin.content.4': '• Enregistrement tardif possible sur accord préalable',
+    'terms.checkin.content.5': '• Départ anticipé possible sur demande',
+    'terms.checkin.content.6': '\u200B',
+    'terms.checkin.content.7': 'Capacité et invités :',
+    'terms.checkin.content.8': '• Maximum 4 invités par réservation',
+    'terms.checkin.content.9': '• Enfants de tout âge les bienvenus',
+    'terms.checkin.content.10': '• Berceau disponible à 25 € (sur demande)',
+    'terms.checkin.content.11': '• Invités supplémentaires non autorisés',
+
+    // 4) Règles de la propriété
+    'terms.property.title': '4. Règles de la propriété',
+    'terms.property.content.1': 'Comportement et conduite :',
+    'terms.property.content.2': '• Interdiction de fumer dans toutes les zones intérieures',
+    'terms.property.content.3': '• Fêtes ou événements bruyants interdits',
+    'terms.property.content.4': '• Heures de silence : 22:00–08:00',
+    'terms.property.content.5': '• Animaux de compagnie non admis',
+    'terms.property.content.6': '\u200B',
+    'terms.property.content.7': 'Utilisation des installations :',
+    'terms.property.content.8': '• Piscine disponible en saison (mai à octobre)',
+    'terms.property.content.9': '• Utilisation sous votre propre responsabilité',
+    'terms.property.content.10': '• Maintenir la propriété propre et ordonnée',
+    'terms.property.content.11': '• Respecter le voisinage et les propriétés adjacentes',
+
+    // 5) Responsabilités du client
+    'terms.responsibilities.title': '5. Responsabilités du client',
+    'terms.responsibilities.content.1': 'Pendant votre séjour, vous vous engagez à :',
+    'terms.responsibilities.content.2': '• Traiter la propriété avec soin et respect',
+    'terms.responsibilities.content.3': '• Signaler immédiatement tout dommage ou problème',
+    'terms.responsibilities.content.4': '• Respecter les règles locales et la législation nationale',
+    'terms.responsibilities.content.5': '• Ne pas déranger les autres invités ni les voisins',
+    'terms.responsibilities.content.6': '• Laisser la propriété en bon état',
+    'terms.responsibilities.content.7': '• Ne pas exercer d’activités illégales sur la propriété',
+
+    // 6) Annulations et remboursements
+    'terms.cancellation.title': '6. Annulations et remboursements',
+    'terms.cancellation.content.1': 'Politique d’annulation :',
+    'terms.cancellation.content.2': '• Annulation jusqu’à 30 jours : remboursement total',
+    'terms.cancellation.content.3': '• Annulation entre 15–29 jours : remboursement de 50 %',
+    'terms.cancellation.content.4': '• Annulation à moins de 15 jours : aucun remboursement',
+    'terms.cancellation.content.5': '• Non-présentation : aucun remboursement',
+    'terms.cancellation.content.6': '\u200B',
+    'terms.cancellation.content.7': 'Annulations de notre part :',
+    'terms.cancellation.content.8': '• Remboursement intégral si l’annulation relève de notre responsabilité',
+    'terms.cancellation.content.9': '• Aide à la recherche d’un hébergement alternatif',
+    'terms.cancellation.content.10': '• Éventuelle compensation additionnelle selon la loi applicable',
+
+    // 7) Limitation de responsabilité
+    'terms.liability.title': '7. Limitation de responsabilité',
+    'terms.liability.content.1': 'Refúgio no Mar n’est pas responsable :',
+    'terms.liability.content.2': '• Des pertes, vols ou dommages des effets personnels',
+    'terms.liability.content.3': '• Des blessures liées à l’usage des installations',
+    'terms.liability.content.4': '• Des interruptions de services publics (électricité, eau, internet)',
+    'terms.liability.content.5': '• Des conditions météorologiques défavorables',
+    'terms.liability.content.6': '• Des circonstances de force majeure',
+    'terms.liability.content.7': '\u200B',
     'terms.liability.content.8': 'Recommandations :',
-    'terms.liability.content.9': '• Assurance voyage fortement recommandée',
-    'terms.liability.content.10': '• Vérifier la couverture médicale pendant le séjour',
-    
-    // Applicable Law
-    'terms.law.title': '8. Droit Applicable et Résolution des Conflits',
-    'terms.law.content.1': 'Juridiction :',
-    'terms.law.content.2': '• Ces conditions sont régies par le droit portugais',
-    'terms.law.content.3': '• Tout litige sera résolu par les tribunaux portugais',
-    'terms.law.content.4': '• Livre de Réclamations disponible selon la loi portugaise',
-    'terms.law.content.5': '',
-    'terms.law.content.6': 'Résolution des Conflits :',
-    'terms.law.content.7': '• Nous préférons résoudre les questions par dialogue direct',
-    'terms.law.content.8': '• Médiation avant procédures légales',
-    'terms.law.content.9': '• Engagés pour une résolution juste et rapide',
+    'terms.liability.content.9': '• Assurance voyage incluant la couverture d’hébergement',
+    'terms.liability.content.10': '• Protéger votre sécurité personnelle et vos biens',
+
+    // 8) Droit applicable et juridiction
+    'terms.law.title': '8. Droit applicable et juridiction',
+    'terms.law.content.1': 'Ces conditions sont régies par le droit portugais.',
+    'terms.law.content.2': 'Tout litige sera résolu par les tribunaux portugais.',
+    'terms.law.content.3': 'Nous chercherons toujours à résoudre les différends à l’amiable.',
+    'terms.law.content.4': 'Veuillez nous contacter en premier lieu en cas de problème.',
+    'terms.law.content.5': '\u200B',
+    'terms.law.content.6': 'Droits du consommateur :',
+    'terms.law.content.7': '• Respect total des droits des consommateurs européens',
+    'terms.law.content.8': '• Livre de Réclamations disponible (physique et électronique)',
+    'terms.law.content.9': '• Possibilité de recourir aux entités de résolution de litiges de consommation',
+
+
+    // 9) Force majeure
+    'terms.force_majeure.title': '9. Force majeure',
+    'terms.force_majeure.intro': 'Nous ne sommes pas responsables des manquements dus à :',
+    'terms.force_majeure.natural': '• Catastrophes naturelles, tremblements de terre, inondations',
+    'terms.force_majeure.pandemic': '• Pandémies, épidémies, restrictions sanitaires',
+    'terms.force_majeure.government': '• Actes gouvernementaux, guerre, terrorisme',
+    'terms.force_majeure.infrastructure': '• Pannes d’infrastructure hors de notre contrôle',
+    'terms.force_majeure.remedy': 'Dans ces situations, nous rechercherons des solutions alternatives.',
+
+    // 10) Propriété intellectuelle
+    'terms.intellectual.title': '10. Propriété intellectuelle',
+    'terms.intellectual.ownership': 'L’ensemble du contenu du site est la propriété de Refúgio no Mar.',
+    'terms.intellectual.images': 'Les photographies ne peuvent être utilisées sans autorisation préalable.',
+    'terms.intellectual.trademark': 'Le nom « Refúgio no Mar » est une marque déposée.',
+    'terms.intellectual.guest_content': 'En partageant des photos/avis, vous nous accordez une licence d’utilisation à des fins marketing.',
+
+    // 11) Modifications des conditions
+    'terms.modifications.title': '11. Modifications des conditions',
+    'terms.modifications.intro': 'Ces conditions peuvent être mises à jour périodiquement :',
+    'terms.modifications.notification': '• Les modifications significatives seront communiquées par email',
+    'terms.modifications.effective': '• Elles prennent effet 30 jours après leur publication',
+    'terms.modifications.disagreement': '• En cas de désaccord, vous pouvez annuler des réservations futures',
+    'terms.modifications.website': '• La version à jour est disponible sur le site web',
+
+    // 12) Divisibilité
+    'terms.severability.title': '12. Divisibilité',
+    'terms.severability.invalid': 'Si une clause est jugée invalide, les autres demeurent en vigueur.',
+    'terms.severability.replacement': 'Les clauses invalides seront remplacées par des dispositions légales équivalentes.',
+    'terms.severability.interpretation': 'L’interprétation se fera dans le sens le plus favorable au consommateur.',
+
+    // 13) Protection des données personnelles
+    'terms.data_protection.title': '13. Protection des données personnelles',
+    'terms.data_protection.content.1': 'Nous traitons vos données personnelles conformément au RGPD et à la législation nationale applicable.',
+    'terms.data_protection.content.2': 'Les données collectées servent exclusivement à la gestion de la réservation et aux obligations légales.',
+    'terms.data_protection.content.3': 'Vous disposez d’un droit d’accès, de rectification et d’effacement de vos données, conformément à la loi.',
+    'terms.data_protection.content.4': 'Contactez-nous pour exercer vos droits en matière de protection des données.',
+
+    // 14) Droits du consommateur
+    'terms.consumer.title': '14. Droits du consommateur',
+    'terms.consumer.portuguese_law': 'En tant que consommateur portugais/UE, vos droits sont protégés par la loi :',
+    'terms.consumer.complaints': '• Livre des réclamations disponible (physique et électronique)',
+    'terms.consumer.authorities': '• Vous pouvez recourir aux entités de résolution des litiges de consommation',
+    'terms.consumer.mediation': '• Centre d’Arbitrage des Conflits de Consommation de l’Algarve',
+    'terms.consumer.portal': '• Portail du Consommateur : www.consumidor.gov.pt',
+    'terms.consumer.protection': 'Rien dans ces conditions n’affecte vos droits légaux.',
+
+    // 15) Procédures d’urgence
+    'terms.emergency.title': '15. Procédures d’urgence',
+    'terms.emergency.contact': 'En cas d’urgence, contactez immédiatement :',
+    'terms.emergency.services': '• Urgences : 112 (numéro d’urgence européen)',
+    'terms.emergency.property': '• Problèmes dans la propriété : +41 76 583 0782',
+    'terms.emergency.medical': '• Hôpital le plus proche : Hôpital de Portimão (15 min)',
+    'terms.emergency.location': '• Adresse exacte : Rua da Sardinha, 3, 8365-101 Armação de Pêra',
+
     
     // Contact
-    'terms.contact.title': '9. Contact',
-    'terms.contact.description': 'Pour des questions sur ces conditions ou votre réservation :',
+    'terms.contact.title': 'Contactez-nous',
+    'terms.contact.description': 'Des questions sur ces conditions générales ? Nous sommes là pour vous aider :',
+    'terms.contact.booking': 'Pour les réservations et questions générales : refugionomar2025@gmail.com',
+    'terms.contact.whatsapp': 'WhatsApp (réponses rapides) : +41 76 583 0782',
     'terms.contact.note': 'Nous sommes disponibles pour clarifier toute question concernant votre réservation.',
+    'terms.contact.hours': 'Horaires de service : 9h00-22h00 (tous les jours)',
 
     // Privacy Policy - GDPR Sections in French
     'privacy.legal_basis.title': 'Base Légale du Traitement',
@@ -3618,38 +3565,6 @@ const translations = {
     'privacy.updates.website': '• La version actuelle est toujours disponible sur notre site web',
     'privacy.updates.date': '• La date de dernière mise à jour est clairement indiquée',
     'privacy.updates.continue': 'L\'utilisation continue des services après modifications constitue acceptation.',
-
-    // Terms and Conditions - Additional Sections in French
-    'terms.force_majeure.title': '14. Force Majeure',
-    'terms.force_majeure.definition': 'Nous considérons comme force majeure les événements imprévisibles et inévitables :',
-    'terms.force_majeure.events': '• Pandémies, catastrophes naturelles, grèves, guerre',
-    'terms.force_majeure.restrictions': '• Restrictions gouvernementales de voyage ou d\'hébergement',
-    'terms.force_majeure.utilities': '• Pannes prolongées de services essentiels',
-    'terms.force_majeure.consequences': 'En cas de force majeure : annulation sans pénalités pour les deux parties.',
-    'terms.force_majeure.assistance': 'Nous aidons à la réorganisation ou l\'annulation avec remboursement intégral.',
-
-    'terms.intellectual.title': '15. Propriété Intellectuelle',
-    'terms.intellectual.ownership': 'Tout le contenu du site web et de la propriété appartient à Refúgio no Mar :',
-    'terms.intellectual.photos': '• Photographies, textes, logos et marque déposée',
-    'terms.intellectual.prohibited': '• L\'usage commercial non autorisé est interdit',
-    'terms.intellectual.guest_photos': '• Vous pouvez photographier pendant votre séjour pour usage personnel',
-    'terms.intellectual.social_media': '• Le partage sur les réseaux sociaux est bienvenu (mentionnez-nous !) ',
-
-    'terms.data_protection.title': '16. Protection des Données Personnelles',
-    'terms.data_protection.gdpr': 'Nous respectons rigoureusement le RGPD (Règlement Général sur la Protection des Données).',
-    'terms.data_protection.processing': 'Vos données sont traitées uniquement pour :',
-    'terms.data_protection.booking': '• Gestion des réservations et prestation de services',
-    'terms.data_protection.legal': '• Respect des obligations légales (Fisc, Tourisme Portugal)',
-    'terms.data_protection.communication': '• Communications liées au séjour',
-    'terms.data_protection.rights': 'Consultez notre Politique de Confidentialité pour connaître vos droits.',
-
-    'terms.consumer.title': '17. Droits du Consommateur',
-    'terms.consumer.portuguese_law': 'En tant que consommateur portugais/européen, vous avez des droits protégés par la loi :',
-    'terms.consumer.complaints': '• Livre de réclamations disponible (physique et électronique)',
-    'terms.consumer.authorities': '• Vous pouvez recourir aux entités de résolution de litiges',
-    'terms.consumer.mediation': '• Centre d\'Arbitrage des Conflits de Consommation de l\'Algarve',
-    'terms.consumer.portal': '• Portail du Consommateur : www.consumidor.gov.pt',
-    'terms.consumer.protection': 'Rien dans ces conditions ne porte atteinte à vos droits légaux.'
   },
   de: {
     'nav.home': 'Startseite',
@@ -4213,7 +4128,7 @@ const translations = {
     'description.stats.guests': 'Gäste',
     'description.stats.area': 'Gesamtfläche',
     
-    // Terms and Conditions Page
+    // Terms and Conditions Page - DE
     'terms.back_button': 'Zurück zur Startseite',
     'terms.title': 'Allgemeine Geschäftsbedingungen',
     'terms.subtitle': 'Erfahren Sie mehr über die Bedingungen, die Ihren Aufenthalt im Refúgio no Mar regeln. Transparent, fair und in Übereinstimmung mit der portugiesischen Gesetzgebung.',
@@ -4221,106 +4136,164 @@ const translations = {
     'terms.last_updated': 'Letzte Aktualisierung: 26. August 2025',
     'terms.intro': 'Willkommen im Refúgio no Mar. Diese Allgemeinen Geschäftsbedingungen legen die Regeln für Ihren Aufenthalt in unserem Luxusapartment in Armação de Pêra fest. Bitte lesen Sie sorgfältig, bevor Sie Ihre Buchung vornehmen.',
     
-    // General Information
+    // 1) Allgemeine Informationen
     'terms.general.title': '1. Allgemeine Informationen',
-    'terms.general.content.1': 'Diese Allgemeinen Geschäftsbedingungen regeln Ihre Nutzung der von Refúgio no Mar angebotenen Unterkunftsdienstleistungen.',
-    'terms.general.content.2': 'Immobilie gelegen in Rua da Sardinha, 3, 8365-101 Armação de Pêra, Portugal.',
-    'terms.general.content.3': 'RNAL Nr. 163178/AL - Lizenziert von Turismo de Portugal.',
-    'terms.general.content.4': 'Mit einer Buchung stimmen Sie diesen Bedingungen vollständig zu.',
-    
-    // Bookings and Payments
+    'terms.general.content.1': 'Diese Allgemeinen Geschäftsbedingungen regeln die Nutzung der von Refúgio no Mar angebotenen Beherbergungsleistungen.',
+    'terms.general.content.2': 'Unterkunft: Rua da Sardinha, 3, 8365-101 Armação de Pêra, Portugal.',
+    'terms.general.content.3': 'RNAL-Nr. 163178/AL – lizenziert durch Turismo de Portugal.',
+    'terms.general.content.4': 'Mit einer Buchung akzeptieren Sie diese Bedingungen in vollem Umfang.',
+
+    // 2) Buchungen und Zahlungen
     'terms.booking.title': '2. Buchungen und Zahlungen',
     'terms.booking.content.1': 'Buchungsbestätigung:',
-    'terms.booking.content.2': '• Alle Buchungen unterliegen der Bestätigung und Verfügbarkeit',
-    'terms.booking.content.3': '• Die Buchung wird erst nach vollständiger Zahlung bestätigt',
-    'terms.booking.content.4': '• Sie erhalten eine Bestätigung per E-Mail mit allen Details',
-    'terms.booking.content.5': '',
-    'terms.booking.content.6': 'Zahlungsmodalitäten:',
-    'terms.booking.content.7': '• Zahlung per Banküberweisung oder PIX',
-    'terms.booking.content.8': '• Vollzahlung vor dem Check-in erforderlich',
-    'terms.booking.content.9': '• Keine Barzahlungen vor Ort akzeptiert',
-    'terms.booking.content.10': '• Alle Preise sind MwSt-inklusive',
-    
-    // Check-in and Check-out
+    'terms.booking.content.2': '• Alle Buchungen stehen unter dem Vorbehalt der Bestätigung und Verfügbarkeit',
+    'terms.booking.content.3': '• Eine Buchung gilt erst nach vollständiger Zahlung als bestätigt',
+    'terms.booking.content.4': '• Sie erhalten eine E-Mail-Bestätigung mit allen Details',
+    'terms.booking.content.5': '\u200B',
+    'terms.booking.content.6': 'Zahlungen:',
+    'terms.booking.content.7': '• Der Gesamtbetrag ist vor der Anreise fällig',
+    'terms.booking.content.8': '• Banküberweisung, MB Way oder Kreditkarte',
+    'terms.booking.content.9': '• Alle Preise verstehen sich inkl. MwSt., sofern zutreffend',
+    'terms.booking.content.10': '• Preise in Euro (€) – offizielle Währung',
+
+    // 3) Check-in und Check-out
     'terms.checkin.title': '3. Check-in und Check-out',
     'terms.checkin.content.1': 'Standardzeiten:',
-    'terms.checkin.content.2': '• Check-in: 16:00 - 22:00 Uhr',
-    'terms.checkin.content.3': '• Check-out: bis 11:00 Uhr',
-    'terms.checkin.content.4': '• Spezielle Zeiten können im Voraus vereinbart werden',
-    'terms.checkin.content.5': '',
-    'terms.checkin.content.6': 'Check-in-Prozess:',
+    'terms.checkin.content.2': '• Check-in: ab 16:00 Uhr',
+    'terms.checkin.content.3': '• Check-out: bis 10:00 Uhr',
+    'terms.checkin.content.4': '• Später Check-in nach vorheriger Absprache möglich',
+    'terms.checkin.content.5': '• Früher Check-out auf Anfrage möglich',
+    'terms.checkin.content.6': '\u200B',
     'terms.checkin.content.7': 'Kapazität und Gäste:',
-    'terms.checkin.content.8': '• Maximale Kapazität: 2 Gäste',
-    'terms.checkin.content.9': '• Alle Gäste müssen registriert sein',
-    'terms.checkin.content.10': '• Gültiger Ausweis erforderlich',
-    'terms.checkin.content.11': '• Nicht autorisierte zusätzliche Gäste können zur sofortigen Kündigung führen',
-    
-    // Property Use
-    'terms.property.title': '4. Nutzung der Immobilie',
-    'terms.property.content.1': 'Allgemeine Regeln:',
-    'terms.property.content.2': '• Rauchen im Inneren verboten',
-    'terms.property.content.3': '• Keine Haustiere erlaubt',
-    'terms.property.content.4': '• Partys und Veranstaltungen verboten',
-    'terms.property.content.5': '• Ruhezeiten beachten (22:00 - 08:00 Uhr)',
-    'terms.property.content.6': '',
+    'terms.checkin.content.8': '• Maximal 4 Gäste pro Buchung',
+    'terms.checkin.content.9': '• Kinder jeden Alters sind willkommen',
+    'terms.checkin.content.10': '• Babybett (Reisebett) für 25 € auf Anfrage verfügbar',
+    'terms.checkin.content.11': '• Zusätzliche nicht autorisierte Gäste sind nicht erlaubt',
+
+    // 4) Regeln der Unterkunft
+    'terms.property.title': '4. Regeln der Unterkunft',
+    'terms.property.content.1': 'Verhalten und Etikette:',
+    'terms.property.content.2': '• Rauchen in allen Innenbereichen verboten',
+    'terms.property.content.3': '• Keine Partys oder lauten Veranstaltungen',
+    'terms.property.content.4': '• Ruhezeiten: 22:00–08:00 Uhr',
+    'terms.property.content.5': '• Haustiere sind nicht gestattet',
+    'terms.property.content.6': '\u200B',
     'terms.property.content.7': 'Nutzung der Einrichtungen:',
-    'terms.property.content.8': '• Pool saisonal verfügbar (April - Oktober)',
-    'terms.property.content.9': '• Geteilte und verantwortliche Nutzung der Gemeinschaftsbereiche',
-    'terms.property.content.10': '• Sauberkeit während des Aufenthalts aufrechterhalten',
-    'terms.property.content.11': '• Schäden oder Probleme sofort melden',
-    
-    // Guest Responsibilities
-    'terms.responsibilities.title': '5. Verantwortlichkeiten des Gastes',
-    'terms.responsibilities.content.1': 'Pflege der Immobilie:',
-    'terms.responsibilities.content.2': '• Die gesamte Immobilie mit Sorgfalt und Respekt behandeln',
-    'terms.responsibilities.content.3': '• Schäden sofort melden',
-    'terms.responsibilities.content.4': '• Elektrogeräte gemäß Anweisungen verwenden',
-    'terms.responsibilities.content.5': '• Grundsauberkeit während des Aufenthalts aufrechterhalten',
-    'terms.responsibilities.content.6': '• Eigentümergemeinschaftsregeln respektieren',
-    'terms.responsibilities.content.7': '• Reparaturkosten für Schäden werden dem Gast berechnet',
-    
-    // Cancellation Policy
-    'terms.cancellation.title': '6. Stornierungsrichtlinie',
-    'terms.cancellation.content.1': 'Kostenlose Stornierung:',
-    'terms.cancellation.content.2': '• Bis 30 Tage vorher: 100% Rückerstattung',
-    'terms.cancellation.content.3': '• 15-29 Tage vorher: 50% Rückerstattung',
-    'terms.cancellation.content.4': '• Weniger als 15 Tage: keine Rückerstattung',
-    'terms.cancellation.content.5': '',
-    'terms.cancellation.content.6': 'Besondere Umstände:',
-    'terms.cancellation.content.7': '• Extreme Wetterbedingungen werden einzeln bewertet',
-    'terms.cancellation.content.8': '• Medizinische Notfälle mit Nachweis werden individuell bewertet',
-    'terms.cancellation.content.9': '• Stornierungen unsererseits: 100% Rückerstattung',
-    'terms.cancellation.content.10': '• Rückerstattungsprozess: bis zu 14 Werktage',
-    
-    // Liability
-    'terms.liability.title': '7. Haftung und Versicherungen',
-    'terms.liability.content.1': 'Haftungsbeschränkung:',
-    'terms.liability.content.2': '• Der Gast ist für durch Fahrlässigkeit verursachte Schäden verantwortlich',
-    'terms.liability.content.3': '• Refúgio no Mar ist nicht verantwortlich für verlorene oder gestohlene Gegenstände',
-    'terms.liability.content.4': '• Wir sind nicht verantwortlich für Unfälle in den Einrichtungen',
-    'terms.liability.content.5': '• Nutzung von Pool und Gemeinschaftsbereichen auf eigene Gefahr',
-    'terms.liability.content.6': '',
-    'terms.liability.content.7': 'Versicherungen:',
+    'terms.property.content.8': '• Pool saisonal verfügbar (Mai bis Oktober)',
+    'terms.property.content.9': '• Nutzung auf eigene Gefahr',
+    'terms.property.content.10': '• Unterkunft sauber und ordentlich halten',
+    'terms.property.content.11': '• Nachbarn und angrenzende Immobilien respektieren',
+
+    // 5) Pflichten der Gäste
+    'terms.responsibilities.title': '5. Pflichten der Gäste',
+    'terms.responsibilities.content.1': 'Während Ihres Aufenthalts verpflichten Sie sich:',
+    'terms.responsibilities.content.2': '• Die Unterkunft mit Sorgfalt und Respekt zu behandeln',
+    'terms.responsibilities.content.3': '• Schäden oder Probleme umgehend zu melden',
+    'terms.responsibilities.content.4': '• Alle örtlichen Vorschriften und nationalen Gesetze einzuhalten',
+    'terms.responsibilities.content.5': '• Andere Gäste oder Nachbarn nicht zu stören',
+    'terms.responsibilities.content.6': '• Die Unterkunft in geeignetem Zustand zu hinterlassen',
+    'terms.responsibilities.content.7': '• Keine illegalen Aktivitäten auf dem Grundstück vorzunehmen',
+
+    // 6) Stornierungen und Erstattungen
+    'terms.cancellation.title': '6. Stornierungen und Erstattungen',
+    'terms.cancellation.content.1': 'Stornierungsrichtlinie:',
+    'terms.cancellation.content.2': '• Stornierung bis 30 Tage vorher: volle Erstattung',
+    'terms.cancellation.content.3': '• Stornierung 15–29 Tage vorher: 50 % Erstattung',
+    'terms.cancellation.content.4': '• Stornierung weniger als 15 Tage vorher: keine Erstattung',
+    'terms.cancellation.content.5': '• Nichterscheinen: keine Erstattung',
+    'terms.cancellation.content.6': '\u200B',
+    'terms.cancellation.content.7': 'Stornierungen unsererseits:',
+    'terms.cancellation.content.8': '• Volle Erstattung, wenn die Stornierung in unserer Verantwortung liegt',
+    'terms.cancellation.content.9': '• Unterstützung bei der Suche nach einer Alternativunterkunft',
+    'terms.cancellation.content.10': '• Ggf. zusätzliche Entschädigung gemäß geltendem Recht',
+
+    // 7) Haftungsbeschränkung
+    'terms.liability.title': '7. Haftungsbeschränkung',
+    'terms.liability.content.1': 'Refúgio no Mar haftet nicht für:',
+    'terms.liability.content.2': '• Verlust, Diebstahl oder Beschädigung persönlicher Gegenstände',
+    'terms.liability.content.3': '• Verletzungen im Zusammenhang mit der Nutzung der Einrichtungen',
+    'terms.liability.content.4': '• Unterbrechungen öffentlicher Dienste (Strom, Wasser, Internet)',
+    'terms.liability.content.5': '• Unwetter oder sonstige widrige Witterungsbedingungen',
+    'terms.liability.content.6': '• Umstände höherer Gewalt',
+    'terms.liability.content.7': '\u200B',
     'terms.liability.content.8': 'Empfehlungen:',
-    'terms.liability.content.9': '• Reiseversicherung dringend empfohlen',
-    'terms.liability.content.10': '• Krankenversicherungsschutz während des Aufenthalts überprüfen',
-    
-    // Applicable Law
-    'terms.law.title': '8. Anwendbares Recht und Streitbeilegung',
-    'terms.law.content.1': 'Gerichtsbarkeit:',
-    'terms.law.content.2': '• Diese Bedingungen unterliegen portugiesischem Recht',
-    'terms.law.content.3': '• Jede Streitigkeit wird von portugiesischen Gerichten gelöst',
-    'terms.law.content.4': '• Beschwerdeverwaltung gemäß portugiesischem Recht verfügbar',
-    'terms.law.content.5': '',
-    'terms.law.content.6': 'Streitbeilegung:',
-    'terms.law.content.7': '• Wir bevorzugen die Lösung von Problemen durch direkten Dialog',
-    'terms.law.content.8': '• Mediation vor Gerichtsverfahren',
-    'terms.law.content.9': '• Verpflichtet zu fairer und schneller Lösung',
+    'terms.liability.content.9': '• Reiseversicherung mit Unterkunftsdeckung',
+    'terms.liability.content.10': '• Achten Sie auf Ihre persönliche Sicherheit und Ihre Wertsachen',
+
+    // 8) Anwendbares Recht und Gerichtsstand
+    'terms.law.title': '8. Anwendbares Recht und Gerichtsstand',
+    'terms.law.content.1': 'Diese Bedingungen unterliegen dem portugiesischen Recht.',
+    'terms.law.content.2': 'Etwaige Streitigkeiten werden vor portugiesischen Gerichten beigelegt.',
+    'terms.law.content.3': 'Wir bemühen uns stets um eine gütliche Einigung.',
+    'terms.law.content.4': 'Bitte kontaktieren Sie uns zunächst im Falle eines Problems.',
+    'terms.law.content.5': '\u200B',
+    'terms.law.content.6': 'Verbraucherrechte:',
+    'terms.law.content.7': '• Vollständige Achtung der Verbraucherrechte in der EU',
+    'terms.law.content.8': '• „Livro de Reclamações“ (Beschwerdebuch) verfügbar – physisch und elektronisch',
+    'terms.law.content.9': '• Möglichkeit der Anrufung von Stellen für Verbraucherstreitigkeiten',
+
+
+    // 9) Höhere Gewalt
+    'terms.force_majeure.title': '9. Höhere Gewalt',
+    'terms.force_majeure.intro': 'Wir haften nicht für Nichterfüllung aufgrund von:',
+    'terms.force_majeure.natural': '• Naturkatastrophen, Erdbeben, Überschwemmungen',
+    'terms.force_majeure.pandemic': '• Pandemien, Epidemien, gesundheitspolizeiliche Auflagen',
+    'terms.force_majeure.government': '• Hoheitsakten, Krieg, Terrorismus',
+    'terms.force_majeure.infrastructure': '• Infrastrukturausfällen außerhalb unseres Einflusses',
+    'terms.force_majeure.remedy': 'In solchen Fällen bemühen wir uns um alternative Lösungen.',
+
+    // 10) Geistiges Eigentum
+    'terms.intellectual.title': '10. Geistiges Eigentum',
+    'terms.intellectual.ownership': 'Alle Inhalte der Website sind Eigentum von Refúgio no Mar.',
+    'terms.intellectual.images': 'Fotos dürfen ohne vorherige Genehmigung nicht verwendet werden.',
+    'terms.intellectual.trademark': '„Refúgio no Mar“ ist eine eingetragene Marke.',
+    'terms.intellectual.guest_content': 'Durch das Teilen von Fotos/Bewertungen räumen Sie uns eine Lizenz zur Nutzung zu Marketingzwecken ein.',
+
+    // 11) Änderungen der Bedingungen
+    'terms.modifications.title': '11. Änderungen der Bedingungen',
+    'terms.modifications.intro': 'Diese Bedingungen können regelmäßig aktualisiert werden:',
+    'terms.modifications.notification': '• Wesentliche Änderungen werden per E-Mail mitgeteilt',
+    'terms.modifications.effective': '• Sie treten 30 Tage nach Veröffentlichung in Kraft',
+    'terms.modifications.disagreement': '• Wenn Sie nicht einverstanden sind, können Sie künftige Buchungen stornieren',
+    'terms.modifications.website': '• Die aktuelle Fassung ist auf der Website verfügbar',
+
+    // 12) Teilbarkeit
+    'terms.severability.title': '12. Teilbarkeit',
+    'terms.severability.invalid': 'Sollte eine Bestimmung unwirksam sein, bleiben die übrigen Bestimmungen wirksam.',
+    'terms.severability.replacement': 'Unwirksame Bestimmungen werden durch gesetzliche Regelungen mit gleicher Zielrichtung ersetzt.',
+    'terms.severability.interpretation': 'Die Auslegung erfolgt stets verbraucherfreundlich.',
+
+    // 13) Schutz personenbezogener Daten
+    'terms.data_protection.title': '13. Schutz personenbezogener Daten',
+    'terms.data_protection.content.1': 'Wir verarbeiten Ihre personenbezogenen Daten gemäß DSGVO und geltendem nationalem Recht.',
+    'terms.data_protection.content.2': 'Erhobene Daten werden ausschließlich zur Buchungsverwaltung und zur Erfüllung gesetzlicher Pflichten verwendet.',
+    'terms.data_protection.content.3': 'Sie haben das Recht auf Auskunft, Berichtigung und Löschung Ihrer Daten gemäß den gesetzlichen Bestimmungen.',
+    'terms.data_protection.content.4': 'Kontaktieren Sie uns, um Ihre Datenschutzrechte auszuüben.',
+
+    // 14) Verbraucherrechte
+    'terms.consumer.title': '14. Verbraucherrechte',
+    'terms.consumer.portuguese_law': 'Als portugiesischer/EU-Verbraucher genießen Sie gesetzlich geschützte Rechte:',
+    'terms.consumer.complaints': '• Beschwerdebuch (Livro de Reclamações) verfügbar – physisch und elektronisch',
+    'terms.consumer.authorities': '• Möglichkeit der Anrufung von Stellen zur Beilegung von Verbraucherstreitigkeiten',
+    'terms.consumer.mediation': '• Schlichtungsstelle für Verbraucherstreitigkeiten der Algarve',
+    'terms.consumer.portal': '• Verbraucherportal: www.consumidor.gov.pt',
+    'terms.consumer.protection': 'Nichts in diesen Bedingungen berührt Ihre gesetzlichen Rechte.',
+
+    // 15) Notfallverfahren
+    'terms.emergency.title': '15. Notfallverfahren',
+    'terms.emergency.contact': 'Im Notfall kontaktieren Sie bitte umgehend:',
+    'terms.emergency.services': '• Notruf: 112 (europäische Notrufnummer)',
+    'terms.emergency.property': '• Probleme in der Unterkunft: +41 76 583 0782',
+    'terms.emergency.medical': '• Nächstgelegenes Krankenhaus: Krankenhaus Portimão (15 Min.)',
+    'terms.emergency.location': '• Genaue Adresse: Rua da Sardinha, 3, 8365-101 Armação de Pêra',
     
     // Contact
-    'terms.contact.title': '9. Kontakt',
-    'terms.contact.description': 'Für Fragen zu diesen Bedingungen oder Ihrer Buchung:',
+    'terms.contact.title': 'Kontaktieren Sie uns',
+    'terms.contact.description': 'Fragen zu diesen Allgemeinen Geschäftsbedingungen? Wir sind hier, um zu helfen:',
+    'terms.contact.booking': 'Für Buchungen und allgemeine Fragen: refugionomar2025@gmail.com',
+    'terms.contact.whatsapp': 'WhatsApp (schnelle Antworten): +41 76 583 0782',
     'terms.contact.note': 'Wir sind verfügbar, um alle Fragen zu Ihrer Buchung zu klären.',
+    'terms.contact.hours': 'Servicezeiten: 9:00-22:00 (täglich)',
 
     // Privacy Policy - GDPR Sections in German
     'privacy.legal_basis.title': 'Rechtsgrundlage der Verarbeitung',
@@ -4368,38 +4341,6 @@ const translations = {
     'privacy.updates.website': '• Die aktuelle Version ist immer auf unserer Website verfügbar',
     'privacy.updates.date': '• Das Datum der letzten Aktualisierung ist klar angegeben',
     'privacy.updates.continue': 'Die fortgesetzte Nutzung der Dienste nach Änderungen gilt als Zustimmung.',
-
-    // Terms and Conditions - Additional Sections in German
-    'terms.force_majeure.title': '14. Höhere Gewalt',
-    'terms.force_majeure.definition': 'Wir betrachten als höhere Gewalt unvorhersehbare und unvermeidbare Ereignisse:',
-    'terms.force_majeure.events': '• Pandemien, Naturkatastrophen, Streiks, Krieg',
-    'terms.force_majeure.restrictions': '• Regierungsrestriktionen für Reisen oder Beherbergung',
-    'terms.force_majeure.utilities': '• Längere Ausfälle wesentlicher Dienstleistungen',
-    'terms.force_majeure.consequences': 'Bei höherer Gewalt: Stornierung ohne Strafen für beide Parteien.',
-    'terms.force_majeure.assistance': 'Wir helfen bei der Umorganisation oder Stornierung mit vollständiger Rückerstattung.',
-
-    'terms.intellectual.title': '15. Geistiges Eigentum',
-    'terms.intellectual.ownership': 'Alle Website- und Immobilieninhalte gehören Refúgio no Mar:',
-    'terms.intellectual.photos': '• Fotografien, Texte, Logos und eingetragene Marke',
-    'terms.intellectual.prohibited': '• Unbefugte kommerzielle Nutzung ist verboten',
-    'terms.intellectual.guest_photos': '• Sie dürfen während Ihres Aufenthalts für den persönlichen Gebrauch fotografieren',
-    'terms.intellectual.social_media': '• Das Teilen in sozialen Medien ist willkommen (erwähnen Sie uns!)',
-
-    'terms.data_protection.title': '16. Schutz personenbezogener Daten',
-    'terms.data_protection.gdpr': 'Wir befolgen strikt die DSGVO (Datenschutz-Grundverordnung).',
-    'terms.data_protection.processing': 'Ihre Daten werden nur verarbeitet für:',
-    'terms.data_protection.booking': '• Buchungsverwaltung und Dienstleistungserbringung',
-    'terms.data_protection.legal': '• Einhaltung rechtlicher Verpflichtungen (Steuerbehörde, Tourismus Portugal)',
-    'terms.data_protection.communication': '• Aufenthalts-bezogene Kommunikation',
-    'terms.data_protection.rights': 'Konsultieren Sie unsere Datenschutzerklärung, um Ihre Rechte zu erfahren.',
-
-    'terms.consumer.title': '17. Verbraucherrechte',
-    'terms.consumer.portuguese_law': 'Als portugiesischer/europäischer Verbraucher haben Sie gesetzlich geschützte Rechte:',
-    'terms.consumer.complaints': '• Beschwerdeformular verfügbar (physisch und elektronisch)',
-    'terms.consumer.authorities': '• Sie können sich an Streitbeilegungsstellen wenden',
-    'terms.consumer.mediation': '• Algarve Verbraucherkonflikt-Schiedsstelle',
-    'terms.consumer.portal': '• Verbraucherportal: www.consumidor.gov.pt',
-    'terms.consumer.protection': 'Nichts in diesen Bedingungen beeinträchtigt Ihre gesetzlichen Rechte.'
   }
 }
 
