@@ -105,10 +105,9 @@ export default function TestimonialsSection() {
                   </div>
                   
                   <div className="bg-white/40 backdrop-blur-sm p-4 rounded-2xl border border-white/30 mb-6 group-hover:bg-white/60 transition-all duration-300">
-                    <p className="text-gray-800 italic leading-relaxed font-medium relative">
-                      <span className="text-4xl text-coral-300 absolute -top-2 -left-2 opacity-50">“</span>
-                      {testimonial.comment}
-                      <span className="text-4xl text-coral-300 opacity-50">”</span>
+                    <p className="text-gray-800 italic leading-relaxed font-medium relative pl-6 pr-4">
+                      <span className="text-4xl text-coral-300 absolute -top-1 -left-1 opacity-50">"</span>
+                      <span className="inline-flex items-end"><span>{testimonial.comment}</span><span className="text-3xl text-coral-300 opacity-50 leading-none -ml-0.5">"</span></span>
                     </p>
                   </div>
                   
